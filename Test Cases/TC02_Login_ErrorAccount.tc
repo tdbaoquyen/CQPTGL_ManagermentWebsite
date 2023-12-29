@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Login_ErrorAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07534263-c57a-471c-9667-1e921e237e19</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4a5a4d61-9578-4d32-9123-896e4479a087</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-7</value>
+      </iterationEntity>
+      <testDataId>Data Files/login_Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>4a5a4d61-9578-4d32-9123-896e4479a087</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>inputEmail</value>
+      <variableId>a475d96b-997a-49d9-abd6-d76aaa06a840</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>4a5a4d61-9578-4d32-9123-896e4479a087</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>inputPass</value>
+      <variableId>0bf3f98d-2e75-4d7f-b193-3a341d8f4908</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>4a5a4d61-9578-4d32-9123-896e4479a087</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expectedMsg</value>
+      <variableId>0fa88e67-745a-41d5-8194-f07358f57a86</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a475d96b-997a-49d9-abd6-d76aaa06a840</id>
+      <masked>false</masked>
+      <name>inputEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0bf3f98d-2e75-4d7f-b193-3a341d8f4908</id>
+      <masked>false</masked>
+      <name>inputPass</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0fa88e67-745a-41d5-8194-f07358f57a86</id>
+      <masked>false</masked>
+      <name>expectedMsg</name>
+   </variable>
+</TestCaseEntity>
