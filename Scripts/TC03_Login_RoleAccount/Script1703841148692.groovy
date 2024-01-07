@@ -65,7 +65,7 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Login_page/login_email'), 'azalea@gmail.com')
 
-WebUI.setText(findTestObject('Login_page/login_password'), '12345678')
+WebUI.setText(findTestObject('Login_page/login_password'), 'abc12345')
 
 WebUI.click(findTestObject('Login_page/checkbox_remember'))
 

@@ -1,0 +1,12 @@
+1
+00:00:00,279 --> 00:00:03,755
+1. openBrowser("https://cqsystem.fionaprodev.com/")
+
+2
+00:00:03,780 --> 00:00:03,998
+5. maximizeWindow(STOP_ON_FAILURE)
+
+3
+00:00:03,998 --> 00:00:04,030
+9. enableSmartWait()
+

@@ -4,14 +4,23 @@
    <name>img_user-avatar</name>
    <tag></tag>
    <elementGuidId>53fa9e95-e02a-4b51-9b12-8344224f0d41</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.fi-avatar.object-cover.object-center.fi-circular.rounded-full.h-9.w-9.fi-user-avatar</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//body/div[1]/div[2]/div[1]/nav[1]/div[2]/div[2]/div[1]/button[1]/img[1]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>img.fi-avatar.object-cover.object-center.fi-circular.rounded-full.h-9.w-9.fi-user-avatar</value>
+         <key>BASIC</key>
+         <value>//*[@src = 'https://ui-avatars.com/api/?name=A&amp;color=FFFFFF&amp;background=030712']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>a66edc3d-fa48-4547-9677-26e8b28fe04c</webElementGuid>
+      <webElementGuid>c3ffe579-df56-43f9-be83-f029b2c272a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fi-avatar object-cover object-center fi-circular rounded-full h-9 w-9 fi-user-avatar</value>
-      <webElementGuid>66bc5bb6-72d2-4f14-b3fe-d48af352a3ac</webElementGuid>
+      <webElementGuid>e31a1f24-506d-49b7-97bc-217b7c163984</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +47,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://ui-avatars.com/api/?name=A&amp;color=FFFFFF&amp;background=030712</value>
-      <webElementGuid>d1057374-6c89-480f-9dcf-75512abc3b45</webElementGuid>
+      <webElementGuid>d60d3541-96fc-45f2-a779-cc1ba35fa685</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;fi min-h-screen&quot;]/body[@class=&quot;fi-body min-h-screen bg-gray-50 font-normal text-gray-950 antialiased dark:bg-gray-950 dark:text-white&quot;]/div[@class=&quot;fi-layout flex min-h-screen w-full overflow-x-clip&quot;]/div[@class=&quot;fi-main-ctn w-screen flex-1 flex-col flex&quot;]/div[@class=&quot;fi-topbar sticky top-0 z-20 overflow-x-clip fi-topbar-with-navigation&quot;]/nav[@class=&quot;flex h-16 items-center gap-x-4 bg-white px-4 shadow-sm ring-1 ring-gray-950/5 dark:bg-gray-900 dark:ring-white/10 md:px-6 lg:px-8&quot;]/div[@class=&quot;ms-auto flex items-center gap-x-4&quot;]/div[@class=&quot;fi-dropdown fi-user-menu&quot;]/div[@class=&quot;fi-dropdown-trigger flex cursor-pointer&quot;]/button[1]/img[@class=&quot;fi-avatar object-cover object-center fi-circular rounded-full h-9 w-9 fi-user-avatar&quot;]</value>
-      <webElementGuid>839f4101-ad93-46ff-bddd-3b041be99706</webElementGuid>
+      <webElementGuid>ac3f77f8-8249-4ecb-9333-7e9172df0f57</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +63,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'https://ui-avatars.com/api/?name=A&amp;color=FFFFFF&amp;background=030712')]</value>
-      <webElementGuid>cb281263-afd7-4b5b-80cc-2e0cc8a68bd8</webElementGuid>
+      <webElementGuid>500e0088-f076-4eea-bc5e-339e3466ec84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +71,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>b843aeb5-d99c-487b-b78b-5b45a9cc7a2b</webElementGuid>
+      <webElementGuid>7536a1c6-4426-4666-ae93-228e67008174</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://ui-avatars.com/api/?name=A&amp;color=FFFFFF&amp;background=030712']</value>
-      <webElementGuid>8c59be89-0da1-4ca2-b746-0e2cd78b718c</webElementGuid>
+      <webElementGuid>6dfef155-e4e1-4361-bdfc-9b2b0d31e5f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

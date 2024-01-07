@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_sub-VU</name>
+   <tag></tag>
+   <elementGuidId>e13ae57f-6fc0-4163-bfdd-5929c32246ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/div[1]/li[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

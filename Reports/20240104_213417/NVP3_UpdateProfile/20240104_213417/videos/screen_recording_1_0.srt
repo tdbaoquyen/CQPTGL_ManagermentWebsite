@@ -1,0 +1,32 @@
+1
+00:00:00,313 --> 00:00:04,355
+1. openBrowser("https://cqsystem.fionaprodev.com/login")
+
+2
+00:00:04,365 --> 00:00:04,545
+5. maximizeWindow(STOP_ON_FAILURE)
+
+3
+00:00:04,545 --> 00:00:04,575
+9. enableSmartWait()
+
+4
+00:00:04,576 --> 00:00:05,458
+13. setText(findTestObject("Login_page/login_email"), "azalea@gmail.com")
+
+5
+00:00:05,459 --> 00:00:06,189
+17. setText(findTestObject("Login_page/login_password"), "abc12345")
+
+6
+00:00:06,189 --> 00:00:06,619
+21. click(findTestObject("Login_page/checkbox_remember"))
+
+7
+00:00:06,620 --> 00:00:07,012
+25. click(findTestObject("Login_page/button_DangNhap"))
+
+8
+00:00:07,017 --> 00:00:09,079
+29. delay(2)
+

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NVP1_Login Account" time="141.745" tests="8" failures="0" errors="0">
+   <testsuite name="NVP1_Login Account" tests="8" failures="0" errors="0" time="141.745" skipped="0" timestamp="04-01-2024T22:13:48" hostname="ThinkPad - DESKTOP-SUM4876" id="Test Suites/NVP1_Login Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ThinkPad\\git\\CQPTGL_ManagermentWebsite\\Reports\\20240104_221339\\NVP1_Login Account\\20240104_221339"/>
+         <property name="logFiles" value="C:\\Users\\ThinkPad\\git\\CQPTGL_ManagermentWebsite\\Reports\\20240104_221339\\NVP1_Login Account\\20240104_221339\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ThinkPad\\git\\CQPTGL_ManagermentWebsite\\Reports\\20240104_221339\\NVP1_Login Account\\20240104_221339\\1704381326125.png"/>
+         <property name="hostName" value="ThinkPad - DESKTOP-SUM4876"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.114.1"/>
+         <property name="sessionId" value="d4ef98ed31cf737ebccee213ef30fc5b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01_openBrowser" time="6.479" classname="Test Cases/TC01_openBrowser" status="PASSED">
+         <system-out><![CDATA[04-01-2024T22:13:48 - [TEST_CASE][PASSED] - Test Cases/TC01_openBrowser: Test Cases/TC01_openBrowser
+
+04-01-2024T22:13:49 - [TEST_STEP][PASSED] - openBrowser("https://cqsystem.fionaprodev.com/"): Browser is opened with url: 'https://cqsystem.fionaprodev.com/'
+
+04-01-2024T22:13:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2024T22:13:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T22:13:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://cqsystem.fionaprodev.com/'
+
+04-01-2024T22:13:52 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+04-01-2024T22:13:52 - [MESSAGE][PASSED] - Current window maximized
+
+04-01-2024T22:13:52 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T22:13:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC01_openBrowser' .
+
+04-01-2024T22:13:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC01_openBrowser' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Login_ErrorAccount" time="5.983" classname="Test Cases/TC02_Login_ErrorAccount" status="PASSED">
+         <system-out><![CDATA[04-01-2024T22:13:55 - [TEST_CASE][PASSED] - Test Cases/TC02_Login_ErrorAccount: Test Cases/TC02_Login_ErrorAccount
+
+04-01-2024T22:13:55 - [TEST_STEP][PASSED] - refresh(STOP_ON_FAILURE): Refresh successfully
+
+04-01-2024T22:13:55 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T22:13:55 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T22:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_email"), inputEmail): Text 'abc' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:13:56 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_password"), inputPass): Text 'abc' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:13:57 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:13:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:13:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:14:01 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .
+
+04-01-2024T22:14:01 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Login_ErrorAccount" time="5.578" classname="Test Cases/TC02_Login_ErrorAccount" status="PASSED">
+         <system-out><![CDATA[04-01-2024T22:14:01 - [TEST_CASE][PASSED] - Test Cases/TC02_Login_ErrorAccount: Test Cases/TC02_Login_ErrorAccount
+
+04-01-2024T22:14:01 - [TEST_STEP][PASSED] - refresh(STOP_ON_FAILURE): Refresh successfully
+
+04-01-2024T22:14:01 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T22:14:01 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T22:14:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_email"), inputEmail): Text 'abc@' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:02 - [MESSAGE][PASSED] - Text 'abc@' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_password"), inputPass): Text 'abc' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:02 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:14:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:14:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .
+
+04-01-2024T22:14:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Login_ErrorAccount" time="5.576" classname="Test Cases/TC02_Login_ErrorAccount" status="PASSED">
+         <system-out><![CDATA[04-01-2024T22:14:06 - [TEST_CASE][PASSED] - Test Cases/TC02_Login_ErrorAccount: Test Cases/TC02_Login_ErrorAccount
+
+04-01-2024T22:14:06 - [TEST_STEP][PASSED] - refresh(STOP_ON_FAILURE): Refresh successfully
+
+04-01-2024T22:14:07 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T22:14:07 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T22:14:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_email"), inputEmail): Text 'abc@xyz' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:07 - [MESSAGE][PASSED] - Text 'abc@xyz' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_password"), inputPass): Text '' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:14:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:14:12 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .
+
+04-01-2024T22:14:12 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Login_ErrorAccount" time="5.515" classname="Test Cases/TC02_Login_ErrorAccount" status="PASSED">
+         <system-out><![CDATA[04-01-2024T22:14:12 - [TEST_CASE][PASSED] - Test Cases/TC02_Login_ErrorAccount: Test Cases/TC02_Login_ErrorAccount
+
+04-01-2024T22:14:12 - [TEST_STEP][PASSED] - refresh(STOP_ON_FAILURE): Refresh successfully
+
+04-01-2024T22:14:12 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T22:14:12 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T22:14:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_email"), inputEmail): Text 'abc@xyz' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:13 - [MESSAGE][PASSED] - Text 'abc@xyz' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_password"), inputPass): Text 'abc' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:14 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:14:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:14:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .
+
+04-01-2024T22:14:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Login_ErrorAccount" time="5.431" classname="Test Cases/TC02_Login_ErrorAccount" status="PASSED">
+         <system-out><![CDATA[04-01-2024T22:14:18 - [TEST_CASE][PASSED] - Test Cases/TC02_Login_ErrorAccount: Test Cases/TC02_Login_ErrorAccount
+
+04-01-2024T22:14:18 - [TEST_STEP][PASSED] - refresh(STOP_ON_FAILURE): Refresh successfully
+
+04-01-2024T22:14:18 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T22:14:18 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T22:14:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_email"), inputEmail): Text 'azalea@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:19 - [MESSAGE][PASSED] - Text 'azalea@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_password"), inputPass): Text '12345678' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:19 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:14:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:14:23 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .
+
+04-01-2024T22:14:23 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Login_ErrorAccount" time="5.381" classname="Test Cases/TC02_Login_ErrorAccount" status="PASSED">
+         <system-out><![CDATA[04-01-2024T22:14:23 - [TEST_CASE][PASSED] - Test Cases/TC02_Login_ErrorAccount: Test Cases/TC02_Login_ErrorAccount
+
+04-01-2024T22:14:23 - [TEST_STEP][PASSED] - refresh(STOP_ON_FAILURE): Refresh successfully
+
+04-01-2024T22:14:23 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T22:14:23 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T22:14:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_email"), inputEmail): Text 'abc@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:24 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:14:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_page/login_password"), inputPass): Text '12345678' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:25 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:14:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:14:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:14:28 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .
+
+04-01-2024T22:14:28 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC02_Login_ErrorAccount' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03_Login_RoleAccount" time="41.632" classname="Test Cases/TC03_Login_RoleAccount" status="PASSED">
+         <system-out><![CDATA[04-01-2024T22:15:28 - [TEST_CASE][PASSED] - Test Cases/TC03_Login_RoleAccount: Test Cases/TC03_Login_RoleAccount
+
+04-01-2024T22:15:28 - [TEST_STEP][PASSED] - refresh(STOP_ON_FAILURE): Refresh successfully
+
+04-01-2024T22:15:29 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T22:15:29 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T22:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login_page/login_email"), "lekhanhhcmvn@hotmail.com"): Text 'lekhanhhcmvn@hotmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:15:29 - [MESSAGE][PASSED] - Text 'lekhanhhcmvn@hotmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login_page/login_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:15:30 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:15:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T22:15:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T22:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Account_menu/img_user-avatar")): Object: 'Object Repository/Account_menu/img_user-avatar' is clicked on
+
+04-01-2024T22:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account_menu/img_user-avatar' is clicked on
+
+04-01-2024T22:15:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:15:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account_menu/button_DangXuat")): Object: 'Object Repository/Account_menu/button_DangXuat' is clicked on
+
+04-01-2024T22:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Account_menu/button_DangXuat' is clicked on
+
+04-01-2024T22:15:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:15:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:15:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login_page/login_email"), "chithat1964@gmail.com"): Text 'chithat1964@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:15:37 - [MESSAGE][PASSED] - Text 'chithat1964@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:15:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login_page/login_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:15:37 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:15:37 - [TEST_STEP][PASSED] - click(findTestObject("Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:15:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T22:15:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T22:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ThongtinNhanVien_page/a_QuanLyVu")): Object: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' is clicked on
+
+04-01-2024T22:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' is clicked on
+
+04-01-2024T22:15:41 - [TEST_STEP][PASSED] - click(findTestObject("ThongtinNhanVien_page/a_manager-QuanLyBan")): Object: 'Object Repository/ThongtinNhanVien_page/a_manager-QuanLyBan' is clicked on
+
+04-01-2024T22:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ThongtinNhanVien_page/a_manager-QuanLyBan' is clicked on
+
+04-01-2024T22:15:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T22:15:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T22:15:44 - [TEST_STEP][PASSED] - click(findTestObject("Account_menu/img_user-avatar")): Object: 'Object Repository/Account_menu/img_user-avatar' is clicked on
+
+04-01-2024T22:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Account_menu/img_user-avatar' is clicked on
+
+04-01-2024T22:15:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:15:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:15:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account_menu/button_DangXuat")): Object: 'Object Repository/Account_menu/button_DangXuat' is clicked on
+
+04-01-2024T22:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Account_menu/button_DangXuat' is clicked on
+
+04-01-2024T22:15:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T22:15:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T22:15:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login_page/login_email"), "azalea@gmail.com"): Text 'azalea@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:15:49 - [MESSAGE][PASSED] - Text 'azalea@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T22:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login_page/login_password"), "abc12345"): Text 'abc12345' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:15:50 - [MESSAGE][PASSED] - Text 'abc12345' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T22:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T22:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T22:15:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T22:15:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T22:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ThongtinNhanVien_page/a_QuanLyVu")): Object: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' is clicked on
+
+04-01-2024T22:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' is clicked on
+
+04-01-2024T22:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ThongtinNhanVien_page/a_NhanVienNamX")): Object: 'Object Repository/ThongtinNhanVien_page/a_NhanVienNamX' is clicked on
+
+04-01-2024T22:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ThongtinNhanVien_page/a_NhanVienNamX' is clicked on
+
+04-01-2024T22:15:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T22:15:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T22:15:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ThongtinNhanVien_page/a_QuanLyVu")): Object: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' is clicked on
+
+04-01-2024T22:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' is clicked on
+
+04-01-2024T22:15:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ThongtinNhanVien_page/a_NhanVienHangNam")): Object: 'Object Repository/ThongtinNhanVien_page/a_NhanVienHangNam' is clicked on
+
+04-01-2024T22:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ThongtinNhanVien_page/a_NhanVienHangNam' is clicked on
+
+04-01-2024T22:15:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T22:16:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T22:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ThongtinNhanVien_page/a_QuanLyVu")): Object: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' is clicked on
+
+04-01-2024T22:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' is clicked on
+
+04-01-2024T22:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ThongtinNhanVien_page/a_admin-QuanLyBan")): Object: 'Object Repository/ThongtinNhanVien_page/a_admin-QuanLyBan' is clicked on
+
+04-01-2024T22:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ThongtinNhanVien_page/a_admin-QuanLyBan' is clicked on
+
+04-01-2024T22:16:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T22:16:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T22:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Account_menu/img_user-avatar")): Object: 'Object Repository/Account_menu/img_user-avatar' is clicked on
+
+04-01-2024T22:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Account_menu/img_user-avatar' is clicked on
+
+04-01-2024T22:16:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:16:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:16:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account_menu/button_DangXuat")): Object: 'Object Repository/Account_menu/button_DangXuat' is clicked on
+
+04-01-2024T22:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Account_menu/button_DangXuat' is clicked on
+
+04-01-2024T22:16:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T22:16:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T22:16:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-01-2024T22:16:08 - [MESSAGE][PASSED] - Browser is closed
+
+04-01-2024T22:16:10 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC03_Login_RoleAccount' .
+
+04-01-2024T22:16:10 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC03_Login_RoleAccount' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-01-2024T22:13:48 - [TEST_SUITE][FAILED] - NVP1_Login Account: Test Cases/TC03_Login_RoleAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC03_Login_RoleAccount.run(TC03_Login_RoleAccount:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704381219072.run(TempTestSuite1704381219072.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' located by '//li/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[04-01-2024T22:13:48 - [TEST_SUITE][FAILED] - NVP1_Login Account: Test Cases/TC03_Login_RoleAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC03_Login_RoleAccount.run(TC03_Login_RoleAccount:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704381219072.run(TempTestSuite1704381219072.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ThongtinNhanVien_page/a_QuanLyVu' located by '//li/button/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

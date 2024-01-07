@@ -1,0 +1,40 @@
+1
+00:00:00,073 --> 00:00:00,078
+1. enableSmartWait()
+
+2
+00:00:00,081 --> 00:00:00,460
+5. click(findTestObject("Account_menu/img_user-avatar"))
+
+3
+00:00:00,461 --> 00:00:01,785
+9. click(findTestObject("Object Repository/Account_menu/link_HosoCanhan"))
+
+4
+00:00:01,786 --> 00:00:03,796
+13. delay(2)
+
+5
+00:00:03,797 --> 00:00:04,194
+17. click(findTestObject("Object Repository/HosoCanhan_page/a_ThongtinTuhoc"))
+
+6
+00:00:04,194 --> 00:00:06,202
+21. delay(2)
+
+7
+00:00:06,202 --> 00:00:06,629
+25. click(findTestObject("Object Repository/HosoCanhan_page/a_KynangChuyenmon"))
+
+8
+00:00:06,630 --> 00:00:08,639
+29. delay(2)
+
+9
+00:00:08,639 --> 00:00:09,050
+33. click(findTestObject("Object Repository/HosoCanhan_page/a_ThongtinGiadinh"))
+
+10
+00:00:09,051 --> 00:00:11,065
+37. delay(2)
+

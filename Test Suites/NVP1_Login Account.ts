@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Login Account</name>
+   <name>NVP1_Login Account</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3acf8bc6-ad6f-43ad-ad34-fcc13c98c67c</testSuiteGuid>
    <testCaseLink>
-      <guid>a6c8b79f-996a-44e3-8dba-841f14e175c3</guid>
+      <guid>4accd469-2846-4c2f-ba24-e7429a8551cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC01_openBrowser</testCaseId>
@@ -27,7 +27,7 @@
          <combinationType>ONE</combinationType>
          <id>cb6e3916-7917-4044-b399-96e1774df3f8</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-7</value>
          </iterationEntity>
          <testDataId>Data Files/login_Data</testDataId>
@@ -53,7 +53,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f9e0aee8-b861-4bc1-9cb3-72d421d77637</guid>
+      <guid>5c40f66f-5d9a-4f83-b09b-52ba9d3d0ba5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC03_Login_RoleAccount</testCaseId>

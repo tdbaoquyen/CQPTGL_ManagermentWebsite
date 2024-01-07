@@ -1,0 +1,116 @@
+1
+00:00:00,125 --> 00:00:00,371
+1. refresh(STOP_ON_FAILURE)
+
+2
+00:00:00,372 --> 00:00:00,377
+5. enableSmartWait()
+
+3
+00:00:00,378 --> 00:00:01,167
+9. setText(findTestObject("Login_page/login_email"), "lekhanhhcmvn@hotmail.com")
+
+4
+00:00:01,168 --> 00:00:01,817
+13. setText(findTestObject("Login_page/login_password"), "12345678")
+
+5
+00:00:01,818 --> 00:00:02,160
+17. click(findTestObject("Login_page/checkbox_remember"))
+
+6
+00:00:02,161 --> 00:00:02,490
+21. click(findTestObject("Login_page/button_DangNhap"))
+
+7
+00:00:02,491 --> 00:00:04,508
+25. delay(2)
+
+8
+00:00:04,509 --> 00:00:04,859
+29. click(findTestObject("Account_menu/img_user-avatar"))
+
+9
+00:00:04,862 --> 00:00:05,869
+33. delay(1)
+
+10
+00:00:05,869 --> 00:00:06,578
+37. click(findTestObject("Object Repository/Account_menu/button_DangXuat"))
+
+11
+00:00:06,579 --> 00:00:07,587
+41. delay(1)
+
+12
+00:00:07,587 --> 00:00:08,242
+45. setText(findTestObject("Login_page/login_email"), "chithat1964@gmail.com")
+
+13
+00:00:08,242 --> 00:00:08,901
+49. setText(findTestObject("Login_page/login_password"), "12345678")
+
+14
+00:00:08,902 --> 00:00:09,248
+53. click(findTestObject("Login_page/checkbox_remember"))
+
+15
+00:00:09,249 --> 00:00:09,585
+57. click(findTestObject("Login_page/button_DangNhap"))
+
+16
+00:00:09,586 --> 00:00:11,602
+61. delay(2)
+
+17
+00:00:11,603 --> 00:00:11,953
+65. click(findTestObject("Object Repository/ThongtinNhanVien_page/a_QuanLyVu"))
+
+18
+00:00:11,954 --> 00:00:12,882
+69. click(findTestObject("ThongtinNhanVien_page/a_manager-QuanLyBan"))
+
+19
+00:00:12,882 --> 00:00:14,901
+73. delay(2)
+
+20
+00:00:14,902 --> 00:00:15,239
+77. click(findTestObject("Account_menu/img_user-avatar"))
+
+21
+00:00:15,240 --> 00:00:16,244
+81. delay(1)
+
+22
+00:00:16,245 --> 00:00:16,913
+85. click(findTestObject("Object Repository/Account_menu/button_DangXuat"))
+
+23
+00:00:16,913 --> 00:00:18,930
+89. delay(2)
+
+24
+00:00:18,930 --> 00:00:19,573
+93. setText(findTestObject("Login_page/login_email"), "azalea@gmail.com")
+
+25
+00:00:19,573 --> 00:00:20,202
+97. setText(findTestObject("Login_page/login_password"), "abc12345")
+
+26
+00:00:20,203 --> 00:00:20,537
+101. click(findTestObject("Login_page/checkbox_remember"))
+
+27
+00:00:20,538 --> 00:00:20,872
+105. click(findTestObject("Login_page/button_DangNhap"))
+
+28
+00:00:20,872 --> 00:00:22,884
+109. delay(2)
+
+29
+00:00:22,884 --> 00:00:57,409
+113. click(findTestObject("Object Repository/ThongtinNhanVien_page/a_QuanLyVu"))
+

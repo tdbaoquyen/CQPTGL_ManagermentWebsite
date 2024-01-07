@@ -7,27 +7,27 @@
    <testCaseGuid>07534263-c57a-471c-9667-1e921e237e19</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>4a5a4d61-9578-4d32-9123-896e4479a087</id>
+      <id>0f558a4c-33bc-434c-8c76-6674ef78fe1a</id>
       <iterationEntity>
-         <iterationType>RANGE</iterationType>
+         <iterationType>ALL</iterationType>
          <value>1-7</value>
       </iterationEntity>
       <testDataId>Data Files/login_Data</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>4a5a4d61-9578-4d32-9123-896e4479a087</testDataLinkId>
+      <testDataLinkId>0f558a4c-33bc-434c-8c76-6674ef78fe1a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>inputEmail</value>
       <variableId>a475d96b-997a-49d9-abd6-d76aaa06a840</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a5a4d61-9578-4d32-9123-896e4479a087</testDataLinkId>
+      <testDataLinkId>0f558a4c-33bc-434c-8c76-6674ef78fe1a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>inputPass</value>
       <variableId>0bf3f98d-2e75-4d7f-b193-3a341d8f4908</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a5a4d61-9578-4d32-9123-896e4479a087</testDataLinkId>
+      <testDataLinkId>0f558a4c-33bc-434c-8c76-6674ef78fe1a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>expectedMsg</value>
       <variableId>0fa88e67-745a-41d5-8194-f07358f57a86</variableId>

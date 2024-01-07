@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_chonMoiQuanHe</name>
+   <tag></tag>
+   <elementGuidId>fb5b0675-0f7f-4de9-90ec-d84d6b39369d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.choices.is-focused.is-open > div.choices__inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='-thong-tin-gia-dinh-tab']/div/div/div/div/div[2]/div/ul/div/li[2]/div[2]/div/div[3]/fieldset/div/div[2]/div/div/div[2]/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5f523288-b7bb-42eb-9ed3-c9870c2d893b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>choices__inner</value>
+      <webElementGuid>b9857cef-c9c5-4c88-8765-f3db60d83f49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Chọn một tuỳ chọn</value>
+      <webElementGuid>71fd85f7-ca88-4604-8e0e-f010fcba7acf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;-thong-tin-gia-dinh-tab&quot;)/div[@class=&quot;grid grid-cols-[--cols-default] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/div[@class=&quot;fi-fo-field-wrp&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;fi-fo-repeater grid gap-y-4&quot;]/ul[1]/div[@class=&quot;grid grid-cols-[--cols-default] gap-4&quot;]/li[@class=&quot;fi-fo-repeater-item rounded-xl bg-white shadow-sm ring-1 ring-gray-950/5 dark:bg-white/5 dark:ring-white/10&quot;]/div[@class=&quot;fi-fo-repeater-item-content border-t border-gray-100 p-4 dark:border-white/10&quot;]/div[@class=&quot;grid grid-cols-[--cols-default] lg:grid-cols-[--cols-lg] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/fieldset[@class=&quot;fi-fieldset rounded-xl border border-gray-200 p-6 dark:border-white/10&quot;]/div[@class=&quot;grid grid-cols-[--cols-default] lg:grid-cols-[--cols-lg] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/div[@class=&quot;fi-fo-field-wrp&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;fi-input-wrp flex rounded-lg shadow-sm ring-1 transition duration-75 bg-white focus-within:ring-2 dark:bg-white/5 ring-gray-950/10 focus-within:ring-primary-600 dark:ring-white/20 dark:focus-within:ring-primary-500 fi-fo-select&quot;]/div[@class=&quot;min-w-0 flex-1&quot;]/div[1]/div[@class=&quot;choices is-focused is-open&quot;]/div[@class=&quot;choices__inner&quot;]</value>
+      <webElementGuid>70fca061-1c28-4d59-bd75-a6c226022aa2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='-thong-tin-gia-dinh-tab']/div/div/div/div/div[2]/div/ul/div/li[2]/div[2]/div/div[3]/fieldset/div/div[2]/div/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>14d7c6a0-838c-4a36-bcfe-5ecf10c9a80f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/fieldset/div/div[2]/div/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>fe24e846-c9ad-4e35-9728-d09da8ccd6e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Chọn một tuỳ chọn' or . = 'Chọn một tuỳ chọn')]</value>
+      <webElementGuid>5ccaad11-2cbb-486e-92d4-d0b372ffc2fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

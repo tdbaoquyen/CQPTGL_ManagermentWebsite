@@ -1,0 +1,296 @@
+1
+00:00:00,233 --> 00:00:00,240
+1. enableSmartWait()
+
+2
+00:00:00,241 --> 00:00:00,697
+5. click(findTestObject("HosoCanhan_page/a_ThongtinGiadinh"))
+
+3
+00:00:00,698 --> 00:00:02,705
+9. delay(2)
+
+4
+00:00:02,706 --> 00:00:03,088
+13. click(findTestObject("HosoCanhan_page/button_AddFamiliar"))
+
+5
+00:00:03,089 --> 00:00:05,660
+17. waitForElementVisible(findTestObject("HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff"), 2)
+
+6
+00:00:05,660 --> 00:00:06,019
+21. click(findTestObject("HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff"))
+
+7
+00:00:06,020 --> 00:00:08,025
+25. delay(2)
+
+8
+00:00:08,025 --> 00:00:08,402
+29. click(findTestObject("HosoCanhan_page/div_MoiQuanHe"), STOP_ON_FAILURE)
+
+9
+00:00:08,403 --> 00:00:08,719
+33. waitForElementPresent(findTestObject("HosoCanhan_page/div_ChaMAnh traiCh giEm traiEm gi"), 2)
+
+10
+00:00:08,719 --> 00:00:11,734
+37. delay(3)
+
+11
+00:00:11,735 --> 00:00:12,120
+41. click(findTestObject("HosoCanhan_page/div_Me"))
+
+12
+00:00:12,120 --> 00:00:14,131
+45. delay(2)
+
+13
+00:00:14,132 --> 00:00:14,530
+49. click(findTestObject("HosoCanhan_page/div_TimKiemtudsNhanVien"), STOP_ON_FAILURE)
+
+14
+00:00:14,531 --> 00:00:15,226
+53. setText(findTestObject("HosoCanhan_page/timkiemNV_nhapTen"), "Xuân Mai")
+
+15
+00:00:15,226 --> 00:00:17,235
+57. delay(2)
+
+16
+00:00:17,235 --> 00:00:17,613
+61. sendKeys(findTestObject("HosoCanhan_page/timkiemNV_nhapTen"), Keys.chord(ENTER))
+
+17
+00:00:17,614 --> 00:00:20,618
+65. delay(3)
+
+18
+00:00:20,619 --> 00:00:20,952
+69. scrollToElement(findTestObject("HosoCanhan_page/button_LuuThayDoi"), 3)
+
+19
+00:00:20,952 --> 00:00:22,959
+73. delay(2)
+
+20
+00:00:22,960 --> 00:00:23,349
+77. click(findTestObject("HosoCanhan_page/button_LuuThayDoi"))
+
+21
+00:00:23,350 --> 00:00:27,354
+81. delay(4)
+
+22
+00:00:27,355 --> 00:00:28,429
+85. refresh()
+
+23
+00:00:28,429 --> 00:00:30,434
+89. delay(2)
+
+24
+00:00:30,435 --> 00:00:30,811
+93. click(findTestObject("HosoCanhan_page/a_ThongtinGiadinh"))
+
+25
+00:00:30,812 --> 00:00:32,815
+97. delay(2)
+
+26
+00:00:32,816 --> 00:00:33,196
+101. click(findTestObject("HosoCanhan_page/button_AddFamiliar"))
+
+27
+00:00:33,196 --> 00:00:35,211
+105. delay(2)
+
+28
+00:00:35,212 --> 00:00:36,219
+109. delay(1)
+
+29
+00:00:36,220 --> 00:00:36,915
+113. setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_hoten"), "Trần Ngọc Sỹ")
+
+30
+00:00:36,916 --> 00:00:38,928
+117. delay(2)
+
+31
+00:00:38,929 --> 00:00:39,299
+121. click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_chonMoiQuanHe"))
+
+32
+00:00:39,299 --> 00:00:41,314
+125. delay(2)
+
+33
+00:00:41,314 --> 00:00:41,624
+129. waitForElementPresent(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_downListChaMeAnhChiEm"), 3)
+
+34
+00:00:41,625 --> 00:00:43,633
+133. delay(2)
+
+35
+00:00:43,634 --> 00:00:44,033
+137. click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_Cha"))
+
+36
+00:00:44,033 --> 00:00:44,636
+141. click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Ngaysinh"))
+
+37
+00:00:44,637 --> 00:00:46,644
+145. delay(2)
+
+38
+00:00:46,645 --> 00:00:47,898
+149. selectOptionByValue(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/select_thng 1thng 2thng 3thng 4thng 5thng 6thng 7thng 8thng 9thng 10thng 11thng 12"), "9", true)
+
+39
+00:00:47,898 --> 00:00:48,906
+153. delay(1)
+
+40
+00:00:48,907 --> 00:00:49,269
+157. clearText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white"))
+
+41
+00:00:49,269 --> 00:00:49,994
+161. setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white"), "1960")
+
+42
+00:00:49,994 --> 00:00:50,998
+165. delay(1)
+
+43
+00:00:50,998 --> 00:00:51,326
+169. waitForElementPresent(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_birthday-Days"), 3)
+
+44
+00:00:51,326 --> 00:00:51,827
+173. click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_userfamiliar_birthday-4"))
+
+45
+00:00:51,828 --> 00:00:53,844
+177. delay(2)
+
+46
+00:00:53,845 --> 00:00:54,166
+181. scrollToElement(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone"), 2)
+
+47
+00:00:54,167 --> 00:00:54,871
+185. setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input_data.userfamiliar_Diachi"), "Quan 7, TP.HCM")
+
+48
+00:00:54,871 --> 00:00:56,879
+189. delay(2)
+
+49
+00:00:56,879 --> 00:00:57,252
+193. click(findTestObject("HosoCanhan_page/button_LuuThayDoi"))
+
+50
+00:00:57,253 --> 00:00:59,267
+197. delay(2)
+
+51
+00:00:59,267 --> 00:01:00,075
+201. setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone"), "12345")
+
+52
+00:01:00,076 --> 00:01:02,080
+205. delay(2)
+
+53
+00:01:02,080 --> 00:01:02,461
+209. click(findTestObject("HosoCanhan_page/button_LuuThayDoi"))
+
+54
+00:01:02,461 --> 00:01:04,470
+213. delay(2)
+
+55
+00:01:04,471 --> 00:01:04,840
+217. clearText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone"), STOP_ON_FAILURE)
+
+56
+00:01:04,841 --> 00:01:05,559
+221. setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone"), "0912903332")
+
+57
+00:01:05,559 --> 00:01:07,574
+225. delay(2)
+
+58
+00:01:07,574 --> 00:01:07,972
+229. click(findTestObject("HosoCanhan_page/button_LuuThayDoi"))
+
+59
+00:01:07,972 --> 00:01:09,989
+233. delay(2)
+
+60
+00:01:09,990 --> 00:01:10,994
+237. refresh()
+
+61
+00:01:10,995 --> 00:01:13,001
+241. delay(2)
+
+62
+00:01:13,001 --> 00:01:13,449
+245. click(findTestObject("HosoCanhan_page/a_ThongtinGiadinh"))
+
+63
+00:01:13,449 --> 00:01:16,456
+249. delay(3)
+
+64
+00:01:16,457 --> 00:01:16,833
+253. click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_Xoa"))
+
+65
+00:01:16,833 --> 00:01:18,849
+257. delay(2)
+
+66
+00:01:18,850 --> 00:01:19,210
+261. click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_XacNhan"))
+
+67
+00:01:19,210 --> 00:01:21,218
+265. delay(2)
+
+68
+00:01:21,219 --> 00:01:21,593
+269. click(findTestObject("HosoCanhan_page/button_LuuThayDoi"))
+
+69
+00:01:21,593 --> 00:01:24,610
+273. delay(3)
+
+70
+00:01:24,611 --> 00:01:25,690
+277. refresh()
+
+71
+00:01:25,691 --> 00:01:27,703
+281. delay(2)
+
+72
+00:01:27,704 --> 00:01:28,064
+285. click(findTestObject("HosoCanhan_page/a_ThongtinGiadinh"))
+
+73
+00:01:28,064 --> 00:01:30,072
+289. delay(2)
+
+74
+00:01:30,073 --> 00:01:30,399
+293. closeBrowser()
+

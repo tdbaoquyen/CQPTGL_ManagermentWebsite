@@ -1,0 +1,112 @@
+1
+00:00:00,115 --> 00:00:00,124
+1. enableSmartWait()
+
+2
+00:00:00,125 --> 00:00:00,540
+5. click(findTestObject("Object Repository/HosoCanhan_page/a_ThongtinChung"))
+
+3
+00:00:00,541 --> 00:00:02,561
+9. delay(2)
+
+4
+00:00:02,562 --> 00:00:02,938
+13. clearText(findTestObject("HosoCanhan_page/input_name"))
+
+5
+00:00:02,938 --> 00:00:03,653
+17. setText(findTestObject("Object Repository/HosoCanhan_page/input_name"), "Bảo Quyên")
+
+6
+00:00:03,653 --> 00:00:05,674
+21. delay(2)
+
+7
+00:00:05,674 --> 00:00:06,061
+25. clearText(findTestObject("HosoCanhan_page/input_noisinh"))
+
+8
+00:00:06,061 --> 00:00:06,795
+29. setText(findTestObject("Object Repository/HosoCanhan_page/input_noisinh"), "TP. Hồ Chí Minh")
+
+9
+00:00:06,798 --> 00:00:07,810
+33. delay(1)
+
+10
+00:00:07,811 --> 00:00:08,185
+37. clearText(findTestObject("HosoCanhan_page/input_phone"))
+
+11
+00:00:08,186 --> 00:00:10,194
+41. delay(2)
+
+12
+00:00:10,195 --> 00:00:10,582
+45. click(findTestObject("Object Repository/HosoCanhan_page/button_LuuThayDoi"))
+
+13
+00:00:10,583 --> 00:00:13,596
+49. delay(3)
+
+14
+00:00:13,596 --> 00:00:14,289
+53. setText(findTestObject("Object Repository/HosoCanhan_page/input_phone"), "12345")
+
+15
+00:00:14,290 --> 00:00:16,296
+57. delay(2)
+
+16
+00:00:16,298 --> 00:00:16,691
+61. click(findTestObject("HosoCanhan_page/button_LuuThayDoi"))
+
+17
+00:00:16,692 --> 00:00:18,707
+65. delay(2)
+
+18
+00:00:18,708 --> 00:00:19,292
+69. clearText(findTestObject("HosoCanhan_page/input_phone"))
+
+19
+00:00:19,292 --> 00:00:20,312
+73. delay(1)
+
+20
+00:00:20,312 --> 00:00:20,994
+77. setText(findTestObject("Object Repository/HosoCanhan_page/input_phone"), "1234554321")
+
+21
+00:00:20,995 --> 00:00:22,007
+81. delay(1)
+
+22
+00:00:22,007 --> 00:00:22,342
+85. clearText(findTestObject("HosoCanhan_page/input_diachi"))
+
+23
+00:00:22,342 --> 00:00:23,039
+89. setText(findTestObject("Object Repository/HosoCanhan_page/input_diachi"), "Q. Bình Thạnh")
+
+24
+00:00:23,039 --> 00:00:25,045
+93. delay(2)
+
+25
+00:00:25,046 --> 00:00:25,421
+97. click(findTestObject("Object Repository/HosoCanhan_page/button_LuuThayDoi"))
+
+26
+00:00:25,422 --> 00:00:28,429
+101. delay(3)
+
+27
+00:00:28,429 --> 00:00:29,191
+105. refresh()
+
+28
+00:00:29,192 --> 00:00:31,202
+109. delay(2)
+

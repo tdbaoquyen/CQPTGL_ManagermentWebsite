@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NVP3_UpdateProfile" time="210.912" tests="6" failures="0" errors="0">
+   <testsuite name="NVP3_UpdateProfile" tests="6" failures="0" errors="0" time="210.912" skipped="0" timestamp="04-01-2024T21:34:26" hostname="ThinkPad - DESKTOP-SUM4876" id="Test Suites/NVP3_UpdateProfile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ThinkPad\\git\\CQPTGL_ManagermentWebsite\\Reports\\20240104_213417\\NVP3_UpdateProfile\\20240104_213417"/>
+         <property name="logFiles" value="C:\\Users\\ThinkPad\\git\\CQPTGL_ManagermentWebsite\\Reports\\20240104_213417\\NVP3_UpdateProfile\\20240104_213417\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ThinkPad - DESKTOP-SUM4876"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.114.1"/>
+         <property name="sessionId" value="38a392ff5b261ebf439d3cd6b9d03942"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01_LoginDefault" time="11.477" classname="Test Cases/TC01_LoginDefault" status="PASSED">
+         <system-out><![CDATA[04-01-2024T21:34:26 - [TEST_CASE][PASSED] - Test Cases/TC01_LoginDefault: Test Cases/TC01_LoginDefault
+
+04-01-2024T21:34:27 - [TEST_STEP][PASSED] - openBrowser("https://cqsystem.fionaprodev.com/login"): Browser is opened with url: 'https://cqsystem.fionaprodev.com/login'
+
+04-01-2024T21:34:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2024T21:34:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2024T21:34:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://cqsystem.fionaprodev.com/login'
+
+04-01-2024T21:34:31 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+04-01-2024T21:34:31 - [MESSAGE][PASSED] - Current window maximized
+
+04-01-2024T21:34:31 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T21:34:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login_page/login_email"), "azalea@gmail.com"): Text 'azalea@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T21:34:32 - [MESSAGE][PASSED] - Text 'azalea@gmail.com' is set on object 'Object Repository/Login_page/login_email'
+
+04-01-2024T21:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("Login_page/login_password"), "abc12345"): Text 'abc12345' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T21:34:32 - [MESSAGE][PASSED] - Text 'abc12345' is set on object 'Object Repository/Login_page/login_password'
+
+04-01-2024T21:34:32 - [TEST_STEP][PASSED] - click(findTestObject("Login_page/checkbox_remember")): Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T21:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/checkbox_remember' is clicked on
+
+04-01-2024T21:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Login_page/button_DangNhap")): Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T21:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page/button_DangNhap' is clicked on
+
+04-01-2024T21:34:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:34:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:34:37 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC01_LoginDefault' .
+
+04-01-2024T21:34:37 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC01_LoginDefault' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04_VerifyProfile" time="13.149" classname="Test Cases/TC04_VerifyProfile" status="PASSED">
+         <system-out><![CDATA[04-01-2024T21:34:37 - [TEST_CASE][PASSED] - Test Cases/TC04_VerifyProfile: Test Cases/TC04_VerifyProfile
+
+04-01-2024T21:34:37 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T21:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Account_menu/img_user-avatar")): Object: 'Object Repository/Account_menu/img_user-avatar' is clicked on
+
+04-01-2024T21:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Account_menu/img_user-avatar' is clicked on
+
+04-01-2024T21:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Account_menu/link_HosoCanhan")): Object: 'Object Repository/Account_menu/link_HosoCanhan' is clicked on
+
+04-01-2024T21:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Account_menu/link_HosoCanhan' is clicked on
+
+04-01-2024T21:34:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:34:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/a_ThongtinTuhoc")): Object: 'Object Repository/HosoCanhan_page/a_ThongtinTuhoc' is clicked on
+
+04-01-2024T21:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_ThongtinTuhoc' is clicked on
+
+04-01-2024T21:34:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:34:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/a_KynangChuyenmon")): Object: 'Object Repository/HosoCanhan_page/a_KynangChuyenmon' is clicked on
+
+04-01-2024T21:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_KynangChuyenmon' is clicked on
+
+04-01-2024T21:34:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:34:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/a_ThongtinGiadinh")): Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:34:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:34:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:34:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC04_VerifyProfile' .
+
+04-01-2024T21:34:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC04_VerifyProfile' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05_update-ThongtinChung" time="33.32" classname="Test Cases/TC05_update-ThongtinChung" status="PASSED">
+         <system-out><![CDATA[04-01-2024T21:34:51 - [TEST_CASE][PASSED] - Test Cases/TC05_update-ThongtinChung: Test Cases/TC05_update-ThongtinChung
+
+04-01-2024T21:34:51 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T21:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/a_ThongtinChung")): Object: 'Object Repository/HosoCanhan_page/a_ThongtinChung' is clicked on
+
+04-01-2024T21:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_ThongtinChung' is clicked on
+
+04-01-2024T21:34:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:34:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:34:53 - [TEST_STEP][PASSED] - clearText(findTestObject("HosoCanhan_page/input_name")): Text of object 'Object Repository/HosoCanhan_page/input_name' is cleared
+
+04-01-2024T21:34:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/HosoCanhan_page/input_name' is cleared
+
+04-01-2024T21:34:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HosoCanhan_page/input_name"), "Bảo Quyên"): Text 'Bảo Quyên' is set on object 'Object Repository/HosoCanhan_page/input_name'
+
+04-01-2024T21:34:54 - [MESSAGE][PASSED] - Text 'Bảo Quyên' is set on object 'Object Repository/HosoCanhan_page/input_name'
+
+04-01-2024T21:34:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:34:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:34:56 - [TEST_STEP][PASSED] - clearText(findTestObject("HosoCanhan_page/input_noisinh")): Text of object 'Object Repository/HosoCanhan_page/input_noisinh' is cleared
+
+04-01-2024T21:34:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/HosoCanhan_page/input_noisinh' is cleared
+
+04-01-2024T21:34:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HosoCanhan_page/input_noisinh"), "TP. Hồ Chí Minh"): Text 'TP. Hồ Chí Minh' is set on object 'Object Repository/HosoCanhan_page/input_noisinh'
+
+04-01-2024T21:34:57 - [MESSAGE][PASSED] - Text 'TP. Hồ Chí Minh' is set on object 'Object Repository/HosoCanhan_page/input_noisinh'
+
+04-01-2024T21:34:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T21:34:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T21:34:58 - [TEST_STEP][PASSED] - clearText(findTestObject("HosoCanhan_page/input_phone")): Text of object 'Object Repository/HosoCanhan_page/input_phone' is cleared
+
+04-01-2024T21:34:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/HosoCanhan_page/input_phone' is cleared
+
+04-01-2024T21:34:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-01-2024T21:35:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-01-2024T21:35:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HosoCanhan_page/input_phone"), "12345"): Text '12345' is set on object 'Object Repository/HosoCanhan_page/input_phone'
+
+04-01-2024T21:35:05 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/HosoCanhan_page/input_phone'
+
+04-01-2024T21:35:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:07 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:09 - [TEST_STEP][PASSED] - clearText(findTestObject("HosoCanhan_page/input_phone")): Text of object 'Object Repository/HosoCanhan_page/input_phone' is cleared
+
+04-01-2024T21:35:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/HosoCanhan_page/input_phone' is cleared
+
+04-01-2024T21:35:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T21:35:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T21:35:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HosoCanhan_page/input_phone"), "1234554321"): Text '1234554321' is set on object 'Object Repository/HosoCanhan_page/input_phone'
+
+04-01-2024T21:35:12 - [MESSAGE][PASSED] - Text '1234554321' is set on object 'Object Repository/HosoCanhan_page/input_phone'
+
+04-01-2024T21:35:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T21:35:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T21:35:13 - [TEST_STEP][PASSED] - clearText(findTestObject("HosoCanhan_page/input_diachi")): Text of object 'Object Repository/HosoCanhan_page/input_diachi' is cleared
+
+04-01-2024T21:35:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/HosoCanhan_page/input_diachi' is cleared
+
+04-01-2024T21:35:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HosoCanhan_page/input_diachi"), "Q. Bình Thạnh"): Text 'Q. Bình Thạnh' is set on object 'Object Repository/HosoCanhan_page/input_diachi'
+
+04-01-2024T21:35:14 - [MESSAGE][PASSED] - Text 'Q. Bình Thạnh' is set on object 'Object Repository/HosoCanhan_page/input_diachi'
+
+04-01-2024T21:35:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-01-2024T21:35:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-01-2024T21:35:19 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+04-01-2024T21:35:20 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T21:35:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC05_update-ThongtinChung' .
+
+04-01-2024T21:35:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC05_update-ThongtinChung' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06_update-ThongtinTuhoc" time="38.729" classname="Test Cases/TC06_update-ThongtinTuhoc" status="PASSED">
+         <system-out><![CDATA[04-01-2024T21:35:24 - [TEST_CASE][PASSED] - Test Cases/TC06_update-ThongtinTuhoc: Test Cases/TC06_update-ThongtinTuhoc
+
+04-01-2024T21:35:24 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T21:35:24 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/a_ThongtinTuhoc")): Object: 'Object Repository/HosoCanhan_page/a_ThongtinTuhoc' is clicked on
+
+04-01-2024T21:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_ThongtinTuhoc' is clicked on
+
+04-01-2024T21:35:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:26 - [TEST_STEP][PASSED] - clearText(findTestObject("HosoCanhan_page/input_ngaynhapmon")): Text of object 'Object Repository/HosoCanhan_page/input_ngaynhapmon' is cleared
+
+04-01-2024T21:35:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/HosoCanhan_page/input_ngaynhapmon' is cleared
+
+04-01-2024T21:35:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HosoCanhan_page/input_ngaynhapmon"), "năm 2000"): Text 'năm 2000' is set on object 'Object Repository/HosoCanhan_page/input_ngaynhapmon'
+
+04-01-2024T21:35:27 - [MESSAGE][PASSED] - Text 'năm 2000' is set on object 'Object Repository/HosoCanhan_page/input_ngaynhapmon'
+
+04-01-2024T21:35:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/input_BoiDuongGiaoLy-Cap1")): Object: 'Object Repository/HosoCanhan_page/input_BoiDuongGiaoLy-Cap1' is clicked on
+
+04-01-2024T21:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/input_BoiDuongGiaoLy-Cap1' is clicked on
+
+04-01-2024T21:35:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T21:35:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T21:35:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/input_traiky-ThapTrai")): Object: 'Object Repository/HosoCanhan_page/input_traiky-ThapTrai' is clicked on
+
+04-01-2024T21:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/input_traiky-ThapTrai' is clicked on
+
+04-01-2024T21:35:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T21:35:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T21:35:32 - [TEST_STEP][PASSED] - clearText(findTestObject("HosoCanhan_page/input_traikyhientai_tunam")): Text of object 'Object Repository/HosoCanhan_page/input_traikyhientai_tunam' is cleared
+
+04-01-2024T21:35:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/HosoCanhan_page/input_traikyhientai_tunam' is cleared
+
+04-01-2024T21:35:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HosoCanhan_page/input_traikyhientai_tunam"), "2010"): Text '2010' is set on object 'Object Repository/HosoCanhan_page/input_traikyhientai_tunam'
+
+04-01-2024T21:35:33 - [MESSAGE][PASSED] - Text '2010' is set on object 'Object Repository/HosoCanhan_page/input_traikyhientai_tunam'
+
+04-01-2024T21:35:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/button_ThemTraiKy")): Object: 'Object Repository/HosoCanhan_page/button_ThemTraiKy' is clicked on
+
+04-01-2024T21:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_ThemTraiKy' is clicked on
+
+04-01-2024T21:35:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("HosoCanhan_page/button_LuuThayDoi"), 0): Scroll to object 'Object Repository/HosoCanhan_page/button_LuuThayDoi' successfully
+
+04-01-2024T21:35:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-01-2024T21:35:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HosoCanhan_page/button_LuuThayDoi' successfully
+
+04-01-2024T21:35:38 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("HosoCanhan_page/input_traiky-ThapTrai"), 2): Scroll to object 'Object Repository/HosoCanhan_page/input_traiky-ThapTrai' successfully
+
+04-01-2024T21:35:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HosoCanhan_page/input_traiky-ThapTrai' successfully
+
+04-01-2024T21:35:41 - [TEST_STEP][PASSED] - clearText(findTestObject("HosoCanhan_page/input_traikyhientai_tunam")): Text of object 'Object Repository/HosoCanhan_page/input_traikyhientai_tunam' is cleared
+
+04-01-2024T21:35:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/HosoCanhan_page/input_traikyhientai_tunam' is cleared
+
+04-01-2024T21:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HosoCanhan_page/input_traikyhientai_tunam"), "2020"): Text '2020' is set on object 'Object Repository/HosoCanhan_page/input_traikyhientai_tunam'
+
+04-01-2024T21:35:42 - [MESSAGE][PASSED] - Text '2020' is set on object 'Object Repository/HosoCanhan_page/input_traikyhientai_tunam'
+
+04-01-2024T21:35:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:44 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_XoaBo")): Object: 'Object Repository/HosoCanhan_page/button_XoaBo' is clicked on
+
+04-01-2024T21:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_XoaBo' is clicked on
+
+04-01-2024T21:35:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T21:35:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T21:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/button_XacNhan")): Object: 'Object Repository/HosoCanhan_page/button_XacNhan' is clicked on
+
+04-01-2024T21:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_XacNhan' is clicked on
+
+04-01-2024T21:35:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:48 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:35:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-01-2024T21:35:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-01-2024T21:35:52 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+04-01-2024T21:35:53 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T21:35:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:55 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/a_ThongtinTuhoc")): Object: 'Object Repository/HosoCanhan_page/a_ThongtinTuhoc' is clicked on
+
+04-01-2024T21:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_ThongtinTuhoc' is clicked on
+
+04-01-2024T21:35:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("HosoCanhan_page/input_traiky-ThapTrai"), 2): Scroll to object 'Object Repository/HosoCanhan_page/input_traiky-ThapTrai' successfully
+
+04-01-2024T21:35:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HosoCanhan_page/input_traiky-ThapTrai' successfully
+
+04-01-2024T21:35:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:35:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:35:59 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+04-01-2024T21:36:01 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T21:36:03 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC06_update-ThongtinTuhoc' .
+
+04-01-2024T21:36:03 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC06_update-ThongtinTuhoc' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC07_update-KyNang" time="21.383" classname="Test Cases/TC07_update-KyNang" status="PASSED">
+         <system-out><![CDATA[04-01-2024T21:36:03 - [TEST_CASE][PASSED] - Test Cases/TC07_update-KyNang: Test Cases/TC07_update-KyNang
+
+04-01-2024T21:36:03 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T21:36:03 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/a_KynangChuyenmon")): Object: 'Object Repository/HosoCanhan_page/a_KynangChuyenmon' is clicked on
+
+04-01-2024T21:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_KynangChuyenmon' is clicked on
+
+04-01-2024T21:36:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/checkbox_trinhdohocvan")): Object: 'Object Repository/HosoCanhan_page/checkbox_trinhdohocvan' is clicked on
+
+04-01-2024T21:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/checkbox_trinhdohocvan' is clicked on
+
+04-01-2024T21:36:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/checkbox_kynangtinhoc")): Object: 'Object Repository/HosoCanhan_page/checkbox_kynangtinhoc' is clicked on
+
+04-01-2024T21:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/checkbox_kynangtinhoc' is clicked on
+
+04-01-2024T21:36:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HosoCanhan_page/input_chuyennganh"), "Thiết kế, Kiểm thử"): Text 'Thiết kế, Kiểm thử' is set on object 'Object Repository/HosoCanhan_page/input_chuyennganh'
+
+04-01-2024T21:36:11 - [MESSAGE][PASSED] - Text 'Thiết kế, Kiểm thử' is set on object 'Object Repository/HosoCanhan_page/input_chuyennganh'
+
+04-01-2024T21:36:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HosoCanhan_page/checkbox_TiengAnh")): Object: 'Object Repository/HosoCanhan_page/checkbox_TiengAnh' is clicked on
+
+04-01-2024T21:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/checkbox_TiengAnh' is clicked on
+
+04-01-2024T21:36:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("HosoCanhan_page/button_LuuThayDoi"), 2): Scroll to object 'Object Repository/HosoCanhan_page/button_LuuThayDoi' successfully
+
+04-01-2024T21:36:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HosoCanhan_page/button_LuuThayDoi' successfully
+
+04-01-2024T21:36:15 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:36:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-01-2024T21:36:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-01-2024T21:36:19 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+04-01-2024T21:36:20 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T21:36:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC07_update-KyNang' .
+
+04-01-2024T21:36:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC07_update-KyNang' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC08_update-NguoiThan" time="92.599" classname="Test Cases/TC08_update-NguoiThan" status="PASSED">
+         <system-out><![CDATA[04-01-2024T21:36:24 - [TEST_CASE][PASSED] - Test Cases/TC08_update-NguoiThan: Test Cases/TC08_update-NguoiThan
+
+04-01-2024T21:36:24 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+04-01-2024T21:36:24 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/a_ThongtinGiadinh")): Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:36:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:27 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_AddFamiliar")): Object: 'Object Repository/HosoCanhan_page/button_AddFamiliar' is clicked on
+
+04-01-2024T21:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_AddFamiliar' is clicked on
+
+04-01-2024T21:36:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff"), 2): Object 'Object Repository/HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff' is visible
+
+04-01-2024T21:36:30 - [MESSAGE][PASSED] - Object 'Object Repository/HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff' is visible
+
+04-01-2024T21:36:30 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff")): Object: 'Object Repository/HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff' is clicked on
+
+04-01-2024T21:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff' is clicked on
+
+04-01-2024T21:36:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:32 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/div_MoiQuanHe"), STOP_ON_FAILURE): Object: 'Object Repository/HosoCanhan_page/div_MoiQuanHe' is clicked on
+
+04-01-2024T21:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/div_MoiQuanHe' is clicked on
+
+04-01-2024T21:36:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HosoCanhan_page/div_ChaMAnh traiCh giEm traiEm gi"), 2): Object 'Object Repository/HosoCanhan_page/div_ChaMAnh traiCh giEm traiEm gi' is present
+
+04-01-2024T21:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/HosoCanhan_page/div_ChaMAnh traiCh giEm traiEm gi' is present
+
+04-01-2024T21:36:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-01-2024T21:36:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-01-2024T21:36:36 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/div_Me")): Object: 'Object Repository/HosoCanhan_page/div_Me' is clicked on
+
+04-01-2024T21:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/div_Me' is clicked on
+
+04-01-2024T21:36:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:38 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/div_TimKiemtudsNhanVien"), STOP_ON_FAILURE): Object: 'Object Repository/HosoCanhan_page/div_TimKiemtudsNhanVien' is clicked on
+
+04-01-2024T21:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/div_TimKiemtudsNhanVien' is clicked on
+
+04-01-2024T21:36:39 - [TEST_STEP][PASSED] - setText(findTestObject("HosoCanhan_page/timkiemNV_nhapTen"), "Xuân Mai"): Text 'Xuân Mai' is set on object 'Object Repository/HosoCanhan_page/timkiemNV_nhapTen'
+
+04-01-2024T21:36:39 - [MESSAGE][PASSED] - Text 'Xuân Mai' is set on object 'Object Repository/HosoCanhan_page/timkiemNV_nhapTen'
+
+04-01-2024T21:36:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HosoCanhan_page/timkiemNV_nhapTen"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HosoCanhan_page/timkiemNV_nhapTen'
+
+04-01-2024T21:36:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HosoCanhan_page/timkiemNV_nhapTen'
+
+04-01-2024T21:36:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-01-2024T21:36:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-01-2024T21:36:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("HosoCanhan_page/button_LuuThayDoi"), 3): Scroll to object 'Object Repository/HosoCanhan_page/button_LuuThayDoi' successfully
+
+04-01-2024T21:36:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HosoCanhan_page/button_LuuThayDoi' successfully
+
+04-01-2024T21:36:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:47 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:36:47 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+04-01-2024T21:36:51 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+04-01-2024T21:36:51 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+04-01-2024T21:36:52 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T21:36:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:54 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/a_ThongtinGiadinh")): Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:36:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:57 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_AddFamiliar")): Object: 'Object Repository/HosoCanhan_page/button_AddFamiliar' is clicked on
+
+04-01-2024T21:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_AddFamiliar' is clicked on
+
+04-01-2024T21:36:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:36:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:36:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T21:37:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T21:37:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_hoten"), "Trần Ngọc Sỹ"): Text 'Trần Ngọc Sỹ' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_hoten'
+
+04-01-2024T21:37:01 - [MESSAGE][PASSED] - Text 'Trần Ngọc Sỹ' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_hoten'
+
+04-01-2024T21:37:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_chonMoiQuanHe")): Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_chonMoiQuanHe' is clicked on
+
+04-01-2024T21:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_chonMoiQuanHe' is clicked on
+
+04-01-2024T21:37:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_downListChaMeAnhChiEm"), 3): Object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_downListChaMeAnhChiEm' is present
+
+04-01-2024T21:37:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_downListChaMeAnhChiEm' is present
+
+04-01-2024T21:37:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_Cha")): Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_Cha' is clicked on
+
+04-01-2024T21:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_Cha' is clicked on
+
+04-01-2024T21:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Ngaysinh")): Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Ngaysinh' is clicked on
+
+04-01-2024T21:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Ngaysinh' is clicked on
+
+04-01-2024T21:37:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/select_thng 1thng 2thng 3thng 4thng 5thng 6thng 7thng 8thng 9thng 10thng 11thng 12"), "9", true): All options with value '9' are selected in object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/select_thng 1thng 2thng 3thng 4thng 5thng 6thng 7thng 8thng 9thng 10thng 11thng 12'  using regular expression
+
+04-01-2024T21:37:12 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/select_thng 1thng 2thng 3thng 4thng 5thng 6thng 7thng 8thng 9thng 10thng 11thng 12'  using regular expression
+
+04-01-2024T21:37:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T21:37:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T21:37:13 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white")): Text of object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white' is cleared
+
+04-01-2024T21:37:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white' is cleared
+
+04-01-2024T21:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white"), "1960"): Text '1960' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white'
+
+04-01-2024T21:37:14 - [MESSAGE][PASSED] - Text '1960' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white'
+
+04-01-2024T21:37:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-01-2024T21:37:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-01-2024T21:37:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_birthday-Days"), 3): Object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_birthday-Days' is present
+
+04-01-2024T21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_birthday-Days' is present
+
+04-01-2024T21:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/div_userfamiliar_birthday-4")): Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_userfamiliar_birthday-4' is clicked on
+
+04-01-2024T21:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/div_userfamiliar_birthday-4' is clicked on
+
+04-01-2024T21:37:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone"), 2): Scroll to object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone' successfully
+
+04-01-2024T21:37:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone' successfully
+
+04-01-2024T21:37:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input_data.userfamiliar_Diachi"), "Quan 7, TP.HCM"): Text 'Quan 7, TP.HCM' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input_data.userfamiliar_Diachi'
+
+04-01-2024T21:37:19 - [MESSAGE][PASSED] - Text 'Quan 7, TP.HCM' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input_data.userfamiliar_Diachi'
+
+04-01-2024T21:37:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:21 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:37:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone"), "12345"): Text '12345' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone'
+
+04-01-2024T21:37:24 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone'
+
+04-01-2024T21:37:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:26 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:37:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:29 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone' is cleared
+
+04-01-2024T21:37:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone' is cleared
+
+04-01-2024T21:37:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone"), "0912903332"): Text '0912903332' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone'
+
+04-01-2024T21:37:30 - [MESSAGE][PASSED] - Text '0912903332' is set on object 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone'
+
+04-01-2024T21:37:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:32 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:37:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:34 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+04-01-2024T21:37:35 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T21:37:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:37 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/a_ThongtinGiadinh")): Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:37:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-01-2024T21:37:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-01-2024T21:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_Xoa")): Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_Xoa' is clicked on
+
+04-01-2024T21:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_Xoa' is clicked on
+
+04-01-2024T21:37:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_XacNhan")): Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_XacNhan' is clicked on
+
+04-01-2024T21:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_XacNhan' is clicked on
+
+04-01-2024T21:37:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:45 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/button_LuuThayDoi")): Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/button_LuuThayDoi' is clicked on
+
+04-01-2024T21:37:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-01-2024T21:37:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-01-2024T21:37:49 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+04-01-2024T21:37:50 - [MESSAGE][PASSED] - Refresh successfully
+
+04-01-2024T21:37:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:52 - [TEST_STEP][PASSED] - click(findTestObject("HosoCanhan_page/a_ThongtinGiadinh")): Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HosoCanhan_page/a_ThongtinGiadinh' is clicked on
+
+04-01-2024T21:37:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-01-2024T21:37:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-01-2024T21:37:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-01-2024T21:37:54 - [MESSAGE][PASSED] - Browser is closed
+
+04-01-2024T21:37:57 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC08_update-NguoiThan' .
+
+04-01-2024T21:37:57 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC08_update-NguoiThan' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-01-2024T21:34:26 - [TEST_SUITE][PASSED] - NVP3_UpdateProfile: Test Cases/TC08_update-NguoiThan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_BoiDuongGiaoLy-Cap1</name>
+   <tag></tag>
+   <elementGuidId>65c49a9e-0f01-49ca-a0ec-98a20590d597</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Bồi Dưỡng Giáo Lý - Cấp 1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>dd191d46-b505-4afa-898c-cdff52b61363</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>a356dbab-80a0-41d7-8e8a-ca181d04a63b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fi-checkbox-input rounded border-none bg-white shadow-sm ring-1 transition duration-75 checked:ring-0 focus:ring-2 focus:ring-offset-0 disabled:pointer-events-none disabled:bg-gray-50 disabled:text-gray-50 disabled:checked:bg-current disabled:checked:text-gray-400 dark:bg-white/5 dark:disabled:bg-transparent dark:disabled:checked:bg-gray-600 text-primary-600 ring-gray-950/10 focus:ring-primary-600 checked:focus:ring-primary-500/50 dark:text-primary-500 dark:ring-white/20 dark:checked:bg-primary-500 dark:focus:ring-primary-500 dark:checked:focus:ring-primary-400/50 dark:disabled:ring-white/10 mt-1</value>
+      <webElementGuid>bf01aea8-687b-4702-b63f-15809bb86da4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Bồi Dưỡng Giáo Lý - Cấp 1</value>
+      <webElementGuid>622586f4-6ea7-4aef-9751-1a795ea4e3c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wire:loading.attr</name>
+      <type>Main</type>
+      <value>disabled</value>
+      <webElementGuid>361c48c4-0f93-466c-9483-3750bbc90945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wire:model</name>
+      <type>Main</type>
+      <value>data.trinhdogiaolyhientai</value>
+      <webElementGuid>5b8e674d-cab1-4dc5-84ce-9e7cc7cc458c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;data.trinh-do-giao-ly&quot;)/div[@class=&quot;fi-section-content-ctn border-t border-gray-200 dark:border-white/10&quot;]/div[@class=&quot;fi-section-content p-6&quot;]/div[@class=&quot;grid grid-cols-[--cols-default] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/fieldset[@class=&quot;fi-fieldset rounded-xl border border-gray-200 p-6 dark:border-white/10&quot;]/div[@class=&quot;grid grid-cols-[--cols-default] lg:grid-cols-[--cols-lg] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/div[@class=&quot;fi-fo-field-wrp&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[1]/div[@class=&quot;columns-[--cols-default] lg:columns-[--cols-lg] fi-fo-checkbox-list gap-4 -mt-4&quot;]/div[@class=&quot;break-inside-avoid pt-4&quot;]/label[@class=&quot;fi-fo-checkbox-list-option-label flex gap-x-3&quot;]/input[@class=&quot;fi-checkbox-input rounded border-none bg-white shadow-sm ring-1 transition duration-75 checked:ring-0 focus:ring-2 focus:ring-offset-0 disabled:pointer-events-none disabled:bg-gray-50 disabled:text-gray-50 disabled:checked:bg-current disabled:checked:text-gray-400 dark:bg-white/5 dark:disabled:bg-transparent dark:disabled:checked:bg-gray-600 text-primary-600 ring-gray-950/10 focus:ring-primary-600 checked:focus:ring-primary-500/50 dark:text-primary-500 dark:ring-white/20 dark:checked:bg-primary-500 dark:focus:ring-primary-500 dark:checked:focus:ring-primary-400/50 dark:disabled:ring-white/10 mt-1&quot;]</value>
+      <webElementGuid>c4e251ad-afd8-4ebf-999a-5d436aa98458</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Bồi Dưỡng Giáo Lý - Cấp 1']</value>
+      <webElementGuid>9ec06797-e818-42d4-b0fd-e13577fa248c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='data.trinh-do-giao-ly']/div/div/div/div/fieldset/div/div/div/div/div[2]/div/div/div/label/input</value>
+      <webElementGuid>c09c3f49-4eca-4cb4-b0dd-8bf16b3cedac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/label/input</value>
+      <webElementGuid>57d50023-0430-47b0-87f2-c8d7d0fec9a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>f9f7c00c-d783-4391-99e5-569028533a30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_TimKiemtudsNhanVien</name>
+   <tag></tag>
+   <elementGuidId>c8ac92c6-3823-4928-9821-9900160df3d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.choices.is-open.is-flipped.is-focused > div.choices__inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@role='combobox']//div[@class='choices__inner']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>93c52e83-a07a-440f-bf40-b88f76820910</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>choices__inner</value>
+      <webElementGuid>0ee2be20-2618-4669-bc96-b43ed237dfc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Chọn một tuỳ chọn</value>
+      <webElementGuid>3efa6ff7-9c6e-4a52-9e4b-ebf8208c6ce5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;-thong-tin-gia-dinh-tab&quot;)/div[@class=&quot;grid grid-cols-[--cols-default] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/div[@class=&quot;fi-fo-field-wrp&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;fi-fo-repeater grid gap-y-4&quot;]/ul[1]/div[@class=&quot;grid grid-cols-[--cols-default] gap-4&quot;]/li[@class=&quot;fi-fo-repeater-item rounded-xl bg-white shadow-sm ring-1 ring-gray-950/5 dark:bg-white/5 dark:ring-white/10&quot;]/div[@class=&quot;fi-fo-repeater-item-content border-t border-gray-100 p-4 dark:border-white/10&quot;]/div[@class=&quot;grid grid-cols-[--cols-default] lg:grid-cols-[--cols-lg] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/fieldset[@class=&quot;fi-fieldset rounded-xl border border-gray-200 p-6 dark:border-white/10&quot;]/div[@class=&quot;grid grid-cols-[--cols-default] lg:grid-cols-[--cols-lg] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/div[@class=&quot;fi-fo-field-wrp&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;fi-input-wrp flex rounded-lg shadow-sm ring-1 transition duration-75 bg-white focus-within:ring-2 dark:bg-white/5 ring-gray-950/10 focus-within:ring-primary-600 dark:ring-white/20 dark:focus-within:ring-primary-500 fi-fo-select&quot;]/div[@class=&quot;min-w-0 flex-1&quot;]/div[1]/div[@class=&quot;choices is-open is-flipped is-focused&quot;]/div[@class=&quot;choices__inner&quot;]</value>
+      <webElementGuid>45988214-523a-4c88-be3b-75ae3eef8e3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='-thong-tin-gia-dinh-tab']/div/div/div/div/div[2]/div/ul/div/li/div[2]/div/div[2]/fieldset/div/div[2]/div/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>a0bf1208-319e-47c2-be41-0c5f954ce835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>03944ec0-00d9-4453-82d2-256995520b18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Chọn một tuỳ chọn' or . = 'Chọn một tuỳ chọn')]</value>
+      <webElementGuid>374c1712-efba-4400-ac08-ff9e379adeee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

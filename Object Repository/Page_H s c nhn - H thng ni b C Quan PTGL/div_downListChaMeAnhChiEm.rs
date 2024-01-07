@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_downListChaMeAnhChiEm</name>
+   <tag></tag>
+   <elementGuidId>70122686-2767-40d4-b225-6d701c9ea02a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.choices__list.choices__list--dropdown.is-active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='-thong-tin-gia-dinh-tab']/div/div/div/div/div[2]/div/ul/div/li[2]/div[2]/div/div[3]/fieldset/div/div[2]/div/div/div[2]/div/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ddbd909c-e72d-46a8-8a98-2af96b130a52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>choices__list choices__list--dropdown is-active</value>
+      <webElementGuid>d7305331-6596-4677-8069-18db6974bd43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a731d0ce-dc07-4dca-b975-d007a665473d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ChaMẹAnh traiChị gáiEm traiEm gái</value>
+      <webElementGuid>11bef82c-517e-4095-8204-bd6aaf800ea4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;-thong-tin-gia-dinh-tab&quot;)/div[@class=&quot;grid grid-cols-[--cols-default] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/div[@class=&quot;fi-fo-field-wrp&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;fi-fo-repeater grid gap-y-4&quot;]/ul[1]/div[@class=&quot;grid grid-cols-[--cols-default] gap-4&quot;]/li[@class=&quot;fi-fo-repeater-item rounded-xl bg-white shadow-sm ring-1 ring-gray-950/5 dark:bg-white/5 dark:ring-white/10&quot;]/div[@class=&quot;fi-fo-repeater-item-content border-t border-gray-100 p-4 dark:border-white/10&quot;]/div[@class=&quot;grid grid-cols-[--cols-default] lg:grid-cols-[--cols-lg] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/fieldset[@class=&quot;fi-fieldset rounded-xl border border-gray-200 p-6 dark:border-white/10&quot;]/div[@class=&quot;grid grid-cols-[--cols-default] lg:grid-cols-[--cols-lg] fi-fo-component-ctn gap-6&quot;]/div[@class=&quot;col-[--col-span-default]&quot;]/div[@class=&quot;fi-fo-field-wrp&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;grid gap-y-2&quot;]/div[@class=&quot;fi-input-wrp flex rounded-lg shadow-sm ring-1 transition duration-75 bg-white focus-within:ring-2 dark:bg-white/5 ring-gray-950/10 focus-within:ring-primary-600 dark:ring-white/20 dark:focus-within:ring-primary-500 fi-fo-select&quot;]/div[@class=&quot;min-w-0 flex-1&quot;]/div[1]/div[@class=&quot;choices is-focused is-open&quot;]/div[@class=&quot;choices__list choices__list--dropdown is-active&quot;]</value>
+      <webElementGuid>e36e4173-d87d-4865-b164-786eb680f4b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='-thong-tin-gia-dinh-tab']/div/div/div/div/div[2]/div/ul/div/li[2]/div[2]/div/div[3]/fieldset/div/div[2]/div/div/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>00b1d8ce-5445-422b-bb2d-2cf41edd9839</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/fieldset/div/div[2]/div/div/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>21fc8c7d-78b2-4062-b9c1-649fc915554e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ChaMẹAnh traiChị gáiEm traiEm gái' or . = 'ChaMẹAnh traiChị gáiEm traiEm gái')]</value>
+      <webElementGuid>977582e6-ef19-485f-b9d8-a1aacb882895</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

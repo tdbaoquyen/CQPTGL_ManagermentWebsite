@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Taking New Mission - H thng ni b C Quan PTGL/select_sub-BAN",
+      "brokenLocator": "//select[@id\u003d\u0027data.usertempmissionconcurrentity.31cbaf3c-ecf1-464e-870e-de8b7fa813b2.department_part_id\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "body \u003e div:nth-child(1) \u003e div:nth-child(3) \u003e main:nth-child(2) \u003e div:nth-child(1) \u003e section:nth-child(1) \u003e div:nth-child(2) \u003e div:nth-child(1) \u003e form:nth-child(1) \u003e div:nth-child(1) \u003e div:nth-child(1) \u003e div:nth-child(1) \u003e div:nth-child(3) \u003e div:nth-child(1) \u003e div:nth-child(7) \u003e fieldset:nth-child(1) \u003e div:nth-child(2) \u003e div:nth-child(1) \u003e div:nth-child(1) \u003e div:nth-child(1) \u003e div:nth-child(1) \u003e div:nth-child(1) \u003e ul:nth-child(1) \u003e div:nth-child(1) \u003e li:nth-child(1) \u003e div:nth-child(2) \u003e div:nth-child(1) \u003e div:nth-child(3) \u003e div:nth-child(1) \u003e div:nth-child(1) \u003e div:nth-child(2) \u003e div:nth-child(1) \u003e div:nth-child(1) \u003e select:nth-child(1)",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Taking New Mission - H thng ni b C Quan PTGL/select_sub-BAN_CSS.png"
+    }
+  ]
 }

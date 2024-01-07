@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>cap nhat Profile - Thong tin Tu hoc</description>
+   <name>TC06_update-ThongtinTuhoc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c25183d9-1423-4055-963b-b1e59ee68de5</testCaseGuid>
+</TestCaseEntity>

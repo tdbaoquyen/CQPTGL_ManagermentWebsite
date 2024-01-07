@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>cap nhat Profile - Ky nang Chuyen mon</description>
+   <name>TC07_update-KyNang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4976c52-7931-4331-8209-4282b4a96422</testCaseGuid>
+</TestCaseEntity>

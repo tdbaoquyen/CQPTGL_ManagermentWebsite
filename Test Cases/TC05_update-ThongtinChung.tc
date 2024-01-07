@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>cap nhat ho so Ca nhan, muc [Thong tin chung]</description>
+   <name>TC05_update-ThongtinChung</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7820aa2-d0f0-436f-8048-d5cb864f577a</testCaseGuid>
+</TestCaseEntity>

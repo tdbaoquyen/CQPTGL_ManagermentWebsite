@@ -1,0 +1,191 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+NVP3_UpdateProfile,Chrome 120.0.0.0,,,04-01-2024 21:34:26,04-01-2024 21:37:57,3m - 30.912s,PASSED
+,,,,,,,
+Test Cases/TC01_LoginDefault,Chrome 120.0.0.0,,,04-01-2024 21:34:26,04-01-2024 21:34:37,11.477s,PASSED
+"openBrowser(""https://cqsystem.fionaprodev.com/login"")",Chrome 120.0.0.0,,,04-01-2024 21:34:27,04-01-2024 21:34:31,4.041s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 120.0.0.0,,,04-01-2024 21:34:31,04-01-2024 21:34:31,0.179s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 21:34:31,04-01-2024 21:34:31,0.031s,PASSED
+"setText(findTestObject(""Login_page/login_email""), ""azalea@gmail.com"")",Chrome 120.0.0.0,,,04-01-2024 21:34:31,04-01-2024 21:34:32,0.881s,PASSED
+"setText(findTestObject(""Login_page/login_password""), ""abc12345"")",Chrome 120.0.0.0,,,04-01-2024 21:34:32,04-01-2024 21:34:32,0.729s,PASSED
+"click(findTestObject(""Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 21:34:32,04-01-2024 21:34:33,0.431s,PASSED
+"click(findTestObject(""Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 21:34:33,04-01-2024 21:34:33,0.397s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:34:33,04-01-2024 21:34:35,2.059s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 21:34:37,04-01-2024 21:34:37,0.002s,PASSED
+,,,,,,,
+Test Cases/TC04_VerifyProfile,Chrome 120.0.0.0,,,04-01-2024 21:34:37,04-01-2024 21:34:51,13.149s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 21:34:37,04-01-2024 21:34:37,0.008s,PASSED
+"click(findTestObject(""Account_menu/img_user-avatar""))",Chrome 120.0.0.0,,,04-01-2024 21:34:37,04-01-2024 21:34:38,0.380s,PASSED
+"click(findTestObject(""Object Repository/Account_menu/link_HosoCanhan""))",Chrome 120.0.0.0,,,04-01-2024 21:34:38,04-01-2024 21:34:39,1.325s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:34:39,04-01-2024 21:34:41,2.009s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/a_ThongtinTuhoc""))",Chrome 120.0.0.0,,,04-01-2024 21:34:41,04-01-2024 21:34:42,0.398s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:34:42,04-01-2024 21:34:44,2.006s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/a_KynangChuyenmon""))",Chrome 120.0.0.0,,,04-01-2024 21:34:44,04-01-2024 21:34:44,0.428s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:34:44,04-01-2024 21:34:46,2.007s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/a_ThongtinGiadinh""))",Chrome 120.0.0.0,,,04-01-2024 21:34:46,04-01-2024 21:34:46,0.411s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:34:46,04-01-2024 21:34:48,2.009s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 21:34:51,04-01-2024 21:34:51,0.001s,PASSED
+,,,,,,,
+Test Cases/TC05_update-ThongtinChung,Chrome 120.0.0.0,"cap nhat ho so Ca nhan, muc [Thong tin chung]",,04-01-2024 21:34:51,04-01-2024 21:35:24,33.320s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 21:34:51,04-01-2024 21:34:51,0.010s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/a_ThongtinChung""))",Chrome 120.0.0.0,,,04-01-2024 21:34:51,04-01-2024 21:34:51,0.408s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:34:51,04-01-2024 21:34:53,2.021s,PASSED
+"clearText(findTestObject(""HosoCanhan_page/input_name""))",Chrome 120.0.0.0,,,04-01-2024 21:34:53,04-01-2024 21:34:54,0.377s,PASSED
+"setText(findTestObject(""Object Repository/HosoCanhan_page/input_name""), ""Bảo Quyên"")",Chrome 120.0.0.0,,,04-01-2024 21:34:54,04-01-2024 21:34:54,0.714s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:34:54,04-01-2024 21:34:56,2.020s,PASSED
+"clearText(findTestObject(""HosoCanhan_page/input_noisinh""))",Chrome 120.0.0.0,,,04-01-2024 21:34:56,04-01-2024 21:34:57,0.387s,PASSED
+"setText(findTestObject(""Object Repository/HosoCanhan_page/input_noisinh""), ""TP. Hồ Chí Minh"")",Chrome 120.0.0.0,,,04-01-2024 21:34:57,04-01-2024 21:34:57,0.737s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 21:34:57,04-01-2024 21:34:58,1.014s,PASSED
+"clearText(findTestObject(""HosoCanhan_page/input_phone""))",Chrome 120.0.0.0,,,04-01-2024 21:34:58,04-01-2024 21:34:59,0.374s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:34:59,04-01-2024 21:35:01,2.008s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:35:01,04-01-2024 21:35:01,0.387s,PASSED
+delay(3),Chrome 120.0.0.0,,,04-01-2024 21:35:01,04-01-2024 21:35:04,3.013s,PASSED
+"setText(findTestObject(""Object Repository/HosoCanhan_page/input_phone""), ""12345"")",Chrome 120.0.0.0,,,04-01-2024 21:35:04,04-01-2024 21:35:05,0.693s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:05,04-01-2024 21:35:07,2.009s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:35:07,04-01-2024 21:35:07,0.392s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:07,04-01-2024 21:35:09,2.014s,PASSED
+"clearText(findTestObject(""HosoCanhan_page/input_phone""))",Chrome 120.0.0.0,,,04-01-2024 21:35:09,04-01-2024 21:35:10,0.584s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 21:35:10,04-01-2024 21:35:11,1.020s,PASSED
+"setText(findTestObject(""Object Repository/HosoCanhan_page/input_phone""), ""1234554321"")",Chrome 120.0.0.0,,,04-01-2024 21:35:11,04-01-2024 21:35:12,0.683s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 21:35:12,04-01-2024 21:35:13,1.011s,PASSED
+"clearText(findTestObject(""HosoCanhan_page/input_diachi""))",Chrome 120.0.0.0,,,04-01-2024 21:35:13,04-01-2024 21:35:13,0.335s,PASSED
+"setText(findTestObject(""Object Repository/HosoCanhan_page/input_diachi""), ""Q. Bình Thạnh"")",Chrome 120.0.0.0,,,04-01-2024 21:35:13,04-01-2024 21:35:14,0.697s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:14,04-01-2024 21:35:16,2.007s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:35:16,04-01-2024 21:35:16,0.375s,PASSED
+delay(3),Chrome 120.0.0.0,,,04-01-2024 21:35:16,04-01-2024 21:35:19,3.007s,PASSED
+refresh(),Chrome 120.0.0.0,,,04-01-2024 21:35:19,04-01-2024 21:35:20,0.764s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:20,04-01-2024 21:35:22,2.007s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 21:35:24,04-01-2024 21:35:24,0.001s,PASSED
+,,,,,,,
+Test Cases/TC06_update-ThongtinTuhoc,Chrome 120.0.0.0,cap nhat Profile - Thong tin Tu hoc,,04-01-2024 21:35:24,04-01-2024 21:36:03,38.729s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 21:35:24,04-01-2024 21:35:24,0.005s,PASSED
+"click(findTestObject(""HosoCanhan_page/a_ThongtinTuhoc""))",Chrome 120.0.0.0,,,04-01-2024 21:35:24,04-01-2024 21:35:24,0.423s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:24,04-01-2024 21:35:26,2.017s,PASSED
+"clearText(findTestObject(""HosoCanhan_page/input_ngaynhapmon""))",Chrome 120.0.0.0,,,04-01-2024 21:35:26,04-01-2024 21:35:27,0.343s,PASSED
+"setText(findTestObject(""Object Repository/HosoCanhan_page/input_ngaynhapmon""), ""năm 2000"")",Chrome 120.0.0.0,,,04-01-2024 21:35:27,04-01-2024 21:35:27,0.684s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:27,04-01-2024 21:35:29,2.003s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/input_BoiDuongGiaoLy-Cap1""))",Chrome 120.0.0.0,,,04-01-2024 21:35:29,04-01-2024 21:35:30,0.428s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 21:35:30,04-01-2024 21:35:31,1.013s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/input_traiky-ThapTrai""))",Chrome 120.0.0.0,,,04-01-2024 21:35:31,04-01-2024 21:35:31,0.373s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 21:35:31,04-01-2024 21:35:32,1.013s,PASSED
+"clearText(findTestObject(""HosoCanhan_page/input_traikyhientai_tunam""))",Chrome 120.0.0.0,,,04-01-2024 21:35:32,04-01-2024 21:35:33,0.355s,PASSED
+"setText(findTestObject(""Object Repository/HosoCanhan_page/input_traikyhientai_tunam""), ""2010"")",Chrome 120.0.0.0,,,04-01-2024 21:35:33,04-01-2024 21:35:33,0.698s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:33,04-01-2024 21:35:35,2.014s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/button_ThemTraiKy""))",Chrome 120.0.0.0,,,04-01-2024 21:35:35,04-01-2024 21:35:36,0.390s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:36,04-01-2024 21:35:38,2.009s,PASSED
+"scrollToElement(findTestObject(""HosoCanhan_page/button_LuuThayDoi""), 0)",Chrome 120.0.0.0,,,04-01-2024 21:35:38,04-01-2024 21:35:38,0.371s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:35:38,04-01-2024 21:35:39,0.411s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:39,04-01-2024 21:35:41,2.002s,PASSED
+"scrollToElement(findTestObject(""HosoCanhan_page/input_traiky-ThapTrai""), 2)",Chrome 120.0.0.0,,,04-01-2024 21:35:41,04-01-2024 21:35:41,0.313s,PASSED
+"clearText(findTestObject(""HosoCanhan_page/input_traikyhientai_tunam""))",Chrome 120.0.0.0,,,04-01-2024 21:35:41,04-01-2024 21:35:41,0.364s,PASSED
+"setText(findTestObject(""Object Repository/HosoCanhan_page/input_traikyhientai_tunam""), ""2020"")",Chrome 120.0.0.0,,,04-01-2024 21:35:41,04-01-2024 21:35:42,0.676s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:42,04-01-2024 21:35:44,2.018s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_XoaBo""))",Chrome 120.0.0.0,,,04-01-2024 21:35:44,04-01-2024 21:35:44,0.375s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 21:35:44,04-01-2024 21:35:45,1.021s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/button_XacNhan""))",Chrome 120.0.0.0,,,04-01-2024 21:35:45,04-01-2024 21:35:46,0.725s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:46,04-01-2024 21:35:48,2.011s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:35:48,04-01-2024 21:35:49,0.609s,PASSED
+delay(3),Chrome 120.0.0.0,,,04-01-2024 21:35:49,04-01-2024 21:35:52,3.011s,PASSED
+refresh(),Chrome 120.0.0.0,,,04-01-2024 21:35:52,04-01-2024 21:35:53,0.979s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:53,04-01-2024 21:35:55,2.008s,PASSED
+"click(findTestObject(""HosoCanhan_page/a_ThongtinTuhoc""))",Chrome 120.0.0.0,,,04-01-2024 21:35:55,04-01-2024 21:35:55,0.408s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:55,04-01-2024 21:35:57,2.011s,PASSED
+"scrollToElement(findTestObject(""HosoCanhan_page/input_traiky-ThapTrai""), 2)",Chrome 120.0.0.0,,,04-01-2024 21:35:57,04-01-2024 21:35:57,0.338s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:35:57,04-01-2024 21:35:59,2.012s,PASSED
+refresh(),Chrome 120.0.0.0,,,04-01-2024 21:35:59,04-01-2024 21:36:01,1.122s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 21:36:03,04-01-2024 21:36:03,0.000s,PASSED
+,,,,,,,
+Test Cases/TC07_update-KyNang,Chrome 120.0.0.0,cap nhat Profile - Ky nang Chuyen mon,,04-01-2024 21:36:03,04-01-2024 21:36:24,21.383s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 21:36:03,04-01-2024 21:36:03,0.008s,PASSED
+"click(findTestObject(""HosoCanhan_page/a_KynangChuyenmon""))",Chrome 120.0.0.0,,,04-01-2024 21:36:03,04-01-2024 21:36:03,0.372s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:03,04-01-2024 21:36:05,2.009s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/checkbox_trinhdohocvan""))",Chrome 120.0.0.0,,,04-01-2024 21:36:05,04-01-2024 21:36:05,0.393s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:05,04-01-2024 21:36:07,2.020s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/checkbox_kynangtinhoc""))",Chrome 120.0.0.0,,,04-01-2024 21:36:07,04-01-2024 21:36:08,0.369s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:08,04-01-2024 21:36:10,2.014s,PASSED
+"setText(findTestObject(""Object Repository/HosoCanhan_page/input_chuyennganh""), ""Thiết kế, Kiểm thử"")",Chrome 120.0.0.0,,,04-01-2024 21:36:10,04-01-2024 21:36:11,0.726s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:11,04-01-2024 21:36:13,2.005s,PASSED
+"click(findTestObject(""Object Repository/HosoCanhan_page/checkbox_TiengAnh""))",Chrome 120.0.0.0,,,04-01-2024 21:36:13,04-01-2024 21:36:13,0.365s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:13,04-01-2024 21:36:15,2.005s,PASSED
+"scrollToElement(findTestObject(""HosoCanhan_page/button_LuuThayDoi""), 2)",Chrome 120.0.0.0,,,04-01-2024 21:36:15,04-01-2024 21:36:15,0.345s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:36:15,04-01-2024 21:36:16,0.375s,PASSED
+delay(3),Chrome 120.0.0.0,,,04-01-2024 21:36:16,04-01-2024 21:36:19,3.008s,PASSED
+refresh(),Chrome 120.0.0.0,,,04-01-2024 21:36:19,04-01-2024 21:36:20,1.141s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:20,04-01-2024 21:36:22,2.009s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 21:36:24,04-01-2024 21:36:24,0.001s,PASSED
+,,,,,,,
+Test Cases/TC08_update-NguoiThan,Chrome 120.0.0.0,cap nhat Profile - Thong tin gia dinh,,04-01-2024 21:36:24,04-01-2024 21:37:57,1m - 32.599s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 21:36:24,04-01-2024 21:36:24,0.008s,PASSED
+"click(findTestObject(""HosoCanhan_page/a_ThongtinGiadinh""))",Chrome 120.0.0.0,,,04-01-2024 21:36:24,04-01-2024 21:36:25,0.457s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:25,04-01-2024 21:36:27,2.007s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_AddFamiliar""))",Chrome 120.0.0.0,,,04-01-2024 21:36:27,04-01-2024 21:36:27,0.383s,PASSED
+"waitForElementVisible(findTestObject(""HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff""), 2)",Chrome 120.0.0.0,,,04-01-2024 21:36:27,04-01-2024 21:36:30,2.571s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_Ngi thn hin l nhn vin C Quan_data.userfamiliar.9e8fe47a-4f77-4799-a0a3-84ca0c648b8c.is_cq_staff""))",Chrome 120.0.0.0,,,04-01-2024 21:36:30,04-01-2024 21:36:30,0.360s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:30,04-01-2024 21:36:32,2.004s,PASSED
+"click(findTestObject(""HosoCanhan_page/div_MoiQuanHe""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,04-01-2024 21:36:32,04-01-2024 21:36:32,0.378s,PASSED
+"waitForElementPresent(findTestObject(""HosoCanhan_page/div_ChaMAnh traiCh giEm traiEm gi""), 2)",Chrome 120.0.0.0,,,04-01-2024 21:36:32,04-01-2024 21:36:33,0.316s,PASSED
+delay(3),Chrome 120.0.0.0,,,04-01-2024 21:36:33,04-01-2024 21:36:36,3.015s,PASSED
+"click(findTestObject(""HosoCanhan_page/div_Me""))",Chrome 120.0.0.0,,,04-01-2024 21:36:36,04-01-2024 21:36:36,0.386s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:36,04-01-2024 21:36:38,2.012s,PASSED
+"click(findTestObject(""HosoCanhan_page/div_TimKiemtudsNhanVien""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,04-01-2024 21:36:38,04-01-2024 21:36:39,0.398s,PASSED
+"setText(findTestObject(""HosoCanhan_page/timkiemNV_nhapTen""), ""Xuân Mai"")",Chrome 120.0.0.0,,,04-01-2024 21:36:39,04-01-2024 21:36:39,0.696s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:39,04-01-2024 21:36:41,2.008s,PASSED
+"sendKeys(findTestObject(""HosoCanhan_page/timkiemNV_nhapTen""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,04-01-2024 21:36:41,04-01-2024 21:36:42,0.378s,PASSED
+delay(3),Chrome 120.0.0.0,,,04-01-2024 21:36:42,04-01-2024 21:36:45,3.005s,PASSED
+"scrollToElement(findTestObject(""HosoCanhan_page/button_LuuThayDoi""), 3)",Chrome 120.0.0.0,,,04-01-2024 21:36:45,04-01-2024 21:36:45,0.333s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:45,04-01-2024 21:36:47,2.007s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:36:47,04-01-2024 21:36:47,0.389s,PASSED
+delay(4),Chrome 120.0.0.0,,,04-01-2024 21:36:47,04-01-2024 21:36:51,4.005s,PASSED
+refresh(),Chrome 120.0.0.0,,,04-01-2024 21:36:51,04-01-2024 21:36:52,1.073s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:52,04-01-2024 21:36:54,2.005s,PASSED
+"click(findTestObject(""HosoCanhan_page/a_ThongtinGiadinh""))",Chrome 120.0.0.0,,,04-01-2024 21:36:54,04-01-2024 21:36:55,0.377s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:55,04-01-2024 21:36:57,2.003s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_AddFamiliar""))",Chrome 120.0.0.0,,,04-01-2024 21:36:57,04-01-2024 21:36:57,0.380s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:36:57,04-01-2024 21:36:59,2.015s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 21:36:59,04-01-2024 21:37:00,1.008s,PASSED
+"setText(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_hoten""), ""Trần Ngọc Sỹ"")",Chrome 120.0.0.0,,,04-01-2024 21:37:00,04-01-2024 21:37:01,0.696s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:01,04-01-2024 21:37:03,2.012s,PASSED
+"click(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/div_chonMoiQuanHe""))",Chrome 120.0.0.0,,,04-01-2024 21:37:03,04-01-2024 21:37:03,0.370s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:03,04-01-2024 21:37:05,2.015s,PASSED
+"waitForElementPresent(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/div_downListChaMeAnhChiEm""), 3)",Chrome 120.0.0.0,,,04-01-2024 21:37:05,04-01-2024 21:37:06,0.310s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:06,04-01-2024 21:37:08,2.009s,PASSED
+"click(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/div_Cha""))",Chrome 120.0.0.0,,,04-01-2024 21:37:08,04-01-2024 21:37:08,0.399s,PASSED
+"click(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Ngaysinh""))",Chrome 120.0.0.0,,,04-01-2024 21:37:08,04-01-2024 21:37:09,0.605s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:09,04-01-2024 21:37:11,2.006s,PASSED
+"selectOptionByValue(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/select_thng 1thng 2thng 3thng 4thng 5thng 6thng 7thng 8thng 9thng 10thng 11thng 12""), ""9"", true)",Chrome 120.0.0.0,,,04-01-2024 21:37:11,04-01-2024 21:37:12,1.254s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 21:37:12,04-01-2024 21:37:13,1.008s,PASSED
+"clearText(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white""))",Chrome 120.0.0.0,,,04-01-2024 21:37:13,04-01-2024 21:37:13,0.361s,PASSED
+"setText(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white""), ""1960"")",Chrome 120.0.0.0,,,04-01-2024 21:37:13,04-01-2024 21:37:14,0.724s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 21:37:14,04-01-2024 21:37:15,1.004s,PASSED
+"waitForElementPresent(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/div_birthday-Days""), 3)",Chrome 120.0.0.0,,,04-01-2024 21:37:15,04-01-2024 21:37:15,0.328s,PASSED
+"click(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/div_userfamiliar_birthday-4""))",Chrome 120.0.0.0,,,04-01-2024 21:37:15,04-01-2024 21:37:16,0.500s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:16,04-01-2024 21:37:18,2.017s,PASSED
+"scrollToElement(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone""), 2)",Chrome 120.0.0.0,,,04-01-2024 21:37:18,04-01-2024 21:37:18,0.323s,PASSED
+"setText(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/input_data.userfamiliar_Diachi""), ""Quan 7, TP.HCM"")",Chrome 120.0.0.0,,,04-01-2024 21:37:18,04-01-2024 21:37:19,0.705s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:19,04-01-2024 21:37:21,2.007s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:37:21,04-01-2024 21:37:21,0.374s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:21,04-01-2024 21:37:23,2.013s,PASSED
+"setText(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone""), ""12345"")",Chrome 120.0.0.0,,,04-01-2024 21:37:23,04-01-2024 21:37:24,0.808s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:24,04-01-2024 21:37:26,2.005s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:37:26,04-01-2024 21:37:26,0.381s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:26,04-01-2024 21:37:29,2.009s,PASSED
+"clearText(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,04-01-2024 21:37:29,04-01-2024 21:37:29,0.369s,PASSED
+"setText(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone""), ""0912903332"")",Chrome 120.0.0.0,,,04-01-2024 21:37:29,04-01-2024 21:37:30,0.718s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:30,04-01-2024 21:37:32,2.015s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:37:32,04-01-2024 21:37:32,0.398s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:32,04-01-2024 21:37:34,2.016s,PASSED
+refresh(),Chrome 120.0.0.0,,,04-01-2024 21:37:34,04-01-2024 21:37:35,1.005s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:35,04-01-2024 21:37:37,2.006s,PASSED
+"click(findTestObject(""HosoCanhan_page/a_ThongtinGiadinh""))",Chrome 120.0.0.0,,,04-01-2024 21:37:37,04-01-2024 21:37:37,0.448s,PASSED
+delay(3),Chrome 120.0.0.0,,,04-01-2024 21:37:37,04-01-2024 21:37:40,3.008s,PASSED
+"click(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_Xoa""))",Chrome 120.0.0.0,,,04-01-2024 21:37:40,04-01-2024 21:37:41,0.376s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:41,04-01-2024 21:37:43,2.016s,PASSED
+"click(findTestObject(""Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_XacNhan""))",Chrome 120.0.0.0,,,04-01-2024 21:37:43,04-01-2024 21:37:43,0.361s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:43,04-01-2024 21:37:45,2.008s,PASSED
+"click(findTestObject(""HosoCanhan_page/button_LuuThayDoi""))",Chrome 120.0.0.0,,,04-01-2024 21:37:45,04-01-2024 21:37:46,0.374s,PASSED
+delay(3),Chrome 120.0.0.0,,,04-01-2024 21:37:46,04-01-2024 21:37:49,3.017s,PASSED
+refresh(),Chrome 120.0.0.0,,,04-01-2024 21:37:49,04-01-2024 21:37:50,1.080s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:50,04-01-2024 21:37:52,2.014s,PASSED
+"click(findTestObject(""HosoCanhan_page/a_ThongtinGiadinh""))",Chrome 120.0.0.0,,,04-01-2024 21:37:52,04-01-2024 21:37:52,0.361s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 21:37:52,04-01-2024 21:37:54,2.007s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,04-01-2024 21:37:54,04-01-2024 21:37:54,0.324s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 21:37:57,04-01-2024 21:37:57,0.001s,PASSED

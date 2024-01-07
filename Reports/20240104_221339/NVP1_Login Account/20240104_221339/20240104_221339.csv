@@ -1,0 +1,113 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+NVP1_Login Account,Chrome 120.0.0.0,,,04-01-2024 22:13:48,04-01-2024 22:16:10,2m - 21.745s,PASSED
+,,,,,,,
+Test Cases/TC01_openBrowser,Chrome 120.0.0.0,,,04-01-2024 22:13:48,04-01-2024 22:13:55,6.479s,PASSED
+"openBrowser(""https://cqsystem.fionaprodev.com/"")",Chrome 120.0.0.0,,,04-01-2024 22:13:49,04-01-2024 22:13:52,3.494s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 120.0.0.0,,,04-01-2024 22:13:52,04-01-2024 22:13:52,0.218s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 22:13:52,04-01-2024 22:13:52,0.028s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 22:13:55,04-01-2024 22:13:55,0.001s,PASSED
+,,,,,,,
+Test Cases/TC02_Login_ErrorAccount,Chrome 120.0.0.0,,,04-01-2024 22:13:55,04-01-2024 22:14:01,5.983s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 120.0.0.0,,,04-01-2024 22:13:55,04-01-2024 22:13:55,0.292s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 22:13:55,04-01-2024 22:13:55,0.009s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_email""), inputEmail)",Chrome 120.0.0.0,,,04-01-2024 22:13:55,04-01-2024 22:13:56,0.933s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_password""), inputPass)",Chrome 120.0.0.0,,,04-01-2024 22:13:56,04-01-2024 22:13:57,0.669s,PASSED
+"click(findTestObject(""Object Repository/Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 22:13:57,04-01-2024 22:13:57,0.396s,PASSED
+"click(findTestObject(""Object Repository/Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 22:13:57,04-01-2024 22:13:58,0.372s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:13:58,04-01-2024 22:13:59,1.060s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 22:14:01,04-01-2024 22:14:01,0.000s,PASSED
+,,,,,,,
+Test Cases/TC02_Login_ErrorAccount,Chrome 120.0.0.0,,,04-01-2024 22:14:01,04-01-2024 22:14:06,5.578s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 120.0.0.0,,,04-01-2024 22:14:01,04-01-2024 22:14:01,0.381s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 22:14:01,04-01-2024 22:14:01,0.005s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_email""), inputEmail)",Chrome 120.0.0.0,,,04-01-2024 22:14:01,04-01-2024 22:14:02,0.749s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_password""), inputPass)",Chrome 120.0.0.0,,,04-01-2024 22:14:02,04-01-2024 22:14:02,0.630s,PASSED
+"click(findTestObject(""Object Repository/Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 22:14:02,04-01-2024 22:14:03,0.346s,PASSED
+"click(findTestObject(""Object Repository/Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 22:14:03,04-01-2024 22:14:03,0.345s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:14:03,04-01-2024 22:14:04,1.008s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 22:14:06,04-01-2024 22:14:06,0.001s,PASSED
+,,,,,,,
+Test Cases/TC02_Login_ErrorAccount,Chrome 120.0.0.0,,,04-01-2024 22:14:06,04-01-2024 22:14:12,5.576s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 120.0.0.0,,,04-01-2024 22:14:06,04-01-2024 22:14:07,0.304s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 22:14:07,04-01-2024 22:14:07,0.005s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_email""), inputEmail)",Chrome 120.0.0.0,,,04-01-2024 22:14:07,04-01-2024 22:14:07,0.777s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_password""), inputPass)",Chrome 120.0.0.0,,,04-01-2024 22:14:07,04-01-2024 22:14:08,0.640s,PASSED
+"click(findTestObject(""Object Repository/Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 22:14:08,04-01-2024 22:14:08,0.352s,PASSED
+"click(findTestObject(""Object Repository/Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 22:14:08,04-01-2024 22:14:09,0.378s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:14:09,04-01-2024 22:14:10,1.013s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 22:14:12,04-01-2024 22:14:12,0.001s,PASSED
+,,,,,,,
+Test Cases/TC02_Login_ErrorAccount,Chrome 120.0.0.0,,,04-01-2024 22:14:12,04-01-2024 22:14:17,5.515s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 120.0.0.0,,,04-01-2024 22:14:12,04-01-2024 22:14:12,0.294s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 22:14:12,04-01-2024 22:14:12,0.007s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_email""), inputEmail)",Chrome 120.0.0.0,,,04-01-2024 22:14:12,04-01-2024 22:14:13,0.765s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_password""), inputPass)",Chrome 120.0.0.0,,,04-01-2024 22:14:13,04-01-2024 22:14:14,0.658s,PASSED
+"click(findTestObject(""Object Repository/Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 22:14:14,04-01-2024 22:14:14,0.341s,PASSED
+"click(findTestObject(""Object Repository/Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 22:14:14,04-01-2024 22:14:14,0.343s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:14:14,04-01-2024 22:14:15,1.014s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 22:14:17,04-01-2024 22:14:17,0.001s,PASSED
+,,,,,,,
+Test Cases/TC02_Login_ErrorAccount,Chrome 120.0.0.0,,,04-01-2024 22:14:18,04-01-2024 22:14:23,5.431s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 120.0.0.0,,,04-01-2024 22:14:18,04-01-2024 22:14:18,0.275s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 22:14:18,04-01-2024 22:14:18,0.005s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_email""), inputEmail)",Chrome 120.0.0.0,,,04-01-2024 22:14:18,04-01-2024 22:14:19,0.763s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_password""), inputPass)",Chrome 120.0.0.0,,,04-01-2024 22:14:19,04-01-2024 22:14:19,0.644s,PASSED
+"click(findTestObject(""Object Repository/Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 22:14:19,04-01-2024 22:14:20,0.340s,PASSED
+"click(findTestObject(""Object Repository/Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 22:14:20,04-01-2024 22:14:20,0.333s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:14:20,04-01-2024 22:14:21,1.010s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 22:14:23,04-01-2024 22:14:23,0.001s,PASSED
+,,,,,,,
+Test Cases/TC02_Login_ErrorAccount,Chrome 120.0.0.0,,,04-01-2024 22:14:23,04-01-2024 22:14:28,5.381s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 120.0.0.0,,,04-01-2024 22:14:23,04-01-2024 22:14:23,0.250s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 22:14:23,04-01-2024 22:14:23,0.007s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_email""), inputEmail)",Chrome 120.0.0.0,,,04-01-2024 22:14:23,04-01-2024 22:14:24,0.749s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/login_password""), inputPass)",Chrome 120.0.0.0,,,04-01-2024 22:14:24,04-01-2024 22:14:25,0.647s,PASSED
+"click(findTestObject(""Object Repository/Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 22:14:25,04-01-2024 22:14:25,0.337s,PASSED
+"click(findTestObject(""Object Repository/Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 22:14:25,04-01-2024 22:14:25,0.335s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:14:25,04-01-2024 22:14:26,1.005s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 22:14:28,04-01-2024 22:14:28,0.000s,PASSED
+,,,,,,,
+Test Cases/TC03_Login_RoleAccount,Chrome 120.0.0.0,,,04-01-2024 22:15:28,04-01-2024 22:16:10,41.632s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 120.0.0.0,,,04-01-2024 22:15:28,04-01-2024 22:15:29,0.637s,PASSED
+enableSmartWait(),Chrome 120.0.0.0,,,04-01-2024 22:15:29,04-01-2024 22:15:29,0.006s,PASSED
+"setText(findTestObject(""Login_page/login_email""), ""lekhanhhcmvn@hotmail.com"")",Chrome 120.0.0.0,,,04-01-2024 22:15:29,04-01-2024 22:15:29,0.759s,PASSED
+"setText(findTestObject(""Login_page/login_password""), ""12345678"")",Chrome 120.0.0.0,,,04-01-2024 22:15:29,04-01-2024 22:15:30,0.628s,PASSED
+"click(findTestObject(""Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 22:15:30,04-01-2024 22:15:30,0.342s,PASSED
+"click(findTestObject(""Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 22:15:30,04-01-2024 22:15:31,0.342s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 22:15:31,04-01-2024 22:15:33,2.011s,PASSED
+"click(findTestObject(""Account_menu/img_user-avatar""))",Chrome 120.0.0.0,,,04-01-2024 22:15:33,04-01-2024 22:15:33,0.443s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:15:33,04-01-2024 22:15:34,1.010s,PASSED
+"click(findTestObject(""Object Repository/Account_menu/button_DangXuat""))",Chrome 120.0.0.0,,,04-01-2024 22:15:34,04-01-2024 22:15:35,0.957s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:15:35,04-01-2024 22:15:36,1.017s,PASSED
+"setText(findTestObject(""Login_page/login_email""), ""chithat1964@gmail.com"")",Chrome 120.0.0.0,,,04-01-2024 22:15:36,04-01-2024 22:15:37,0.637s,PASSED
+"setText(findTestObject(""Login_page/login_password""), ""12345678"")",Chrome 120.0.0.0,,,04-01-2024 22:15:37,04-01-2024 22:15:37,0.632s,PASSED
+"click(findTestObject(""Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 22:15:37,04-01-2024 22:15:38,0.331s,PASSED
+"click(findTestObject(""Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 22:15:38,04-01-2024 22:15:38,0.325s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 22:15:38,04-01-2024 22:15:40,2.004s,PASSED
+"click(findTestObject(""Object Repository/ThongtinNhanVien_page/a_QuanLyVu""))",Chrome 120.0.0.0,,,04-01-2024 22:15:40,04-01-2024 22:15:41,0.585s,PASSED
+"click(findTestObject(""ThongtinNhanVien_page/a_manager-QuanLyBan""))",Chrome 120.0.0.0,,,04-01-2024 22:15:41,04-01-2024 22:15:42,1.260s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 22:15:42,04-01-2024 22:15:44,2.008s,PASSED
+"click(findTestObject(""Account_menu/img_user-avatar""))",Chrome 120.0.0.0,,,04-01-2024 22:15:44,04-01-2024 22:15:44,0.333s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:15:44,04-01-2024 22:15:45,1.012s,PASSED
+"click(findTestObject(""Object Repository/Account_menu/button_DangXuat""))",Chrome 120.0.0.0,,,04-01-2024 22:15:45,04-01-2024 22:15:46,1.078s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 22:15:46,04-01-2024 22:15:48,2.006s,PASSED
+"setText(findTestObject(""Login_page/login_email""), ""azalea@gmail.com"")",Chrome 120.0.0.0,,,04-01-2024 22:15:48,04-01-2024 22:15:49,0.638s,PASSED
+"setText(findTestObject(""Login_page/login_password""), ""abc12345"")",Chrome 120.0.0.0,,,04-01-2024 22:15:49,04-01-2024 22:15:50,0.619s,PASSED
+"click(findTestObject(""Login_page/checkbox_remember""))",Chrome 120.0.0.0,,,04-01-2024 22:15:50,04-01-2024 22:15:50,0.331s,PASSED
+"click(findTestObject(""Login_page/button_DangNhap""))",Chrome 120.0.0.0,,,04-01-2024 22:15:50,04-01-2024 22:15:50,0.326s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 22:15:50,04-01-2024 22:15:52,2.014s,PASSED
+"click(findTestObject(""Object Repository/ThongtinNhanVien_page/a_QuanLyVu""))",Chrome 120.0.0.0,,,04-01-2024 22:15:52,04-01-2024 22:15:53,0.430s,PASSED
+"click(findTestObject(""Object Repository/ThongtinNhanVien_page/a_NhanVienNamX""))",Chrome 120.0.0.0,,,04-01-2024 22:15:53,04-01-2024 22:15:54,1.436s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 22:15:54,04-01-2024 22:15:56,2.006s,PASSED
+"click(findTestObject(""Object Repository/ThongtinNhanVien_page/a_QuanLyVu""))",Chrome 120.0.0.0,,,04-01-2024 22:15:56,04-01-2024 22:15:56,0.331s,PASSED
+"click(findTestObject(""Object Repository/ThongtinNhanVien_page/a_NhanVienHangNam""))",Chrome 120.0.0.0,,,04-01-2024 22:15:56,04-01-2024 22:15:58,1.776s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 22:15:58,04-01-2024 22:16:00,2.005s,PASSED
+"click(findTestObject(""Object Repository/ThongtinNhanVien_page/a_QuanLyVu""))",Chrome 120.0.0.0,,,04-01-2024 22:16:00,04-01-2024 22:16:01,0.339s,PASSED
+"click(findTestObject(""Object Repository/ThongtinNhanVien_page/a_admin-QuanLyBan""))",Chrome 120.0.0.0,,,04-01-2024 22:16:01,04-01-2024 22:16:02,1.230s,PASSED
+delay(2),Chrome 120.0.0.0,,,04-01-2024 22:16:02,04-01-2024 22:16:04,2.007s,PASSED
+"click(findTestObject(""Account_menu/img_user-avatar""))",Chrome 120.0.0.0,,,04-01-2024 22:16:04,04-01-2024 22:16:04,0.341s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:16:04,04-01-2024 22:16:05,1.019s,PASSED
+"click(findTestObject(""Object Repository/Account_menu/button_DangXuat""))",Chrome 120.0.0.0,,,04-01-2024 22:16:05,04-01-2024 22:16:06,1.127s,PASSED
+delay(1),Chrome 120.0.0.0,,,04-01-2024 22:16:06,04-01-2024 22:16:07,1.009s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,04-01-2024 22:16:07,04-01-2024 22:16:08,0.168s,PASSED
+Video,Chrome 120.0.0.0,,,04-01-2024 22:16:10,04-01-2024 22:16:10,0.001s,PASSED

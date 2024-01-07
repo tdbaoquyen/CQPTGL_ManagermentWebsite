@@ -1,0 +1,28 @@
+1
+00:00:00,157 --> 00:00:00,447
+1. refresh(STOP_ON_FAILURE)
+
+2
+00:00:00,448 --> 00:00:00,457
+5. enableSmartWait()
+
+3
+00:00:00,458 --> 00:00:01,390
+9. setText(findTestObject("Object Repository/Login_page/login_email"), inputEmail)
+
+4
+00:00:01,391 --> 00:00:02,060
+13. setText(findTestObject("Object Repository/Login_page/login_password"), inputPass)
+
+5
+00:00:02,061 --> 00:00:02,457
+17. click(findTestObject("Object Repository/Login_page/checkbox_remember"))
+
+6
+00:00:02,457 --> 00:00:02,829
+21. click(findTestObject("Object Repository/Login_page/button_DangNhap"))
+
+7
+00:00:02,829 --> 00:00:03,892
+25. delay(1)
+
