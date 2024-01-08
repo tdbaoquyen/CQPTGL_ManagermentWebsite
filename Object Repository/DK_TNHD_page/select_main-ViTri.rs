@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_main-BAN</name>
+   <name>select_main-ViTri</name>
    <tag></tag>
-   <elementGuidId>0d5bd94f-d3d4-46d1-b04d-d722b07ff704</elementGuidId>
+   <elementGuidId>ef562228-a385-477c-868b-2bfe2273a20d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='data.department_part']</value>
+         <value>//select[@id='data.position']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>e86a2570-9de3-47b9-bd9a-ddf3591ef9e4</webElementGuid>
+      <webElementGuid>f260c918-cbb0-4c11-b143-3674d3708386</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +29,23 @@
       <name>class</name>
       <type>Main</type>
       <value>fi-select-input block w-full border-none bg-transparent py-1.5 pe-8 text-base text-gray-950 transition duration-75 focus:ring-0 disabled:text-gray-500 disabled:[-webkit-text-fill-color:theme(colors.gray.500)] dark:text-white dark:disabled:text-gray-400 dark:disabled:[-webkit-text-fill-color:theme(colors.gray.400)] sm:text-sm sm:leading-6 [&amp;_optgroup]:bg-white [&amp;_optgroup]:dark:bg-gray-900 [&amp;_option]:bg-white [&amp;_option]:dark:bg-gray-900 ps-3</value>
-      <webElementGuid>3c2a2f9e-264e-452b-b391-eac006021b70</webElementGuid>
+      <webElementGuid>b35bec5f-9cb2-450d-8370-440827dd24bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>data.department_part</value>
-      <webElementGuid>9c76c4c4-2871-4293-bd8e-36e90450cf7b</webElementGuid>
+      <value>data.position</value>
+      <webElementGuid>6164ee7c-7876-4dde-a822-7f3dff408992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>wire:model.live</name>
       <type>Main</type>
-      <value>data.department_part</value>
-      <webElementGuid>a774992d-f5b5-4f36-a4b2-10379cc2ee46</webElementGuid>
+      <value>data.position</value>
+      <webElementGuid>4a9c8301-12b3-43ba-9bba-2fea26edb754</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,67 +60,62 @@
                  
 
                                                             
-                                                            Ban Văn Thư - Đặc Chương
+                                                            Trưởng Ban
                              
                         
                      
                                                             
-                                                            Ban Nhân Viên - Kế Toán
+                                                            Phó Ban
                              
                         
                      
                                                             
-                                                            Ban Thư Viện - Ấn Tống Phát Hành Kinh Sách
-                             
-                        
-                     
-                                                            
-                                                            Ban Tài Sản - Sửa Chữa - Bảo Trì
+                                                            Nhân viên
                              
                         
                      
                  
 </value>
-      <webElementGuid>ac9f22c3-318c-441b-a99d-e0046589705f</webElementGuid>
+      <webElementGuid>b4c1eff5-d73c-4261-95db-d31a4a30255f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;data.department_part&quot;)</value>
-      <webElementGuid>cf93bd76-35f9-4ae4-8c39-0e7477f62e1c</webElementGuid>
+      <value>id(&quot;data.position&quot;)</value>
+      <webElementGuid>0531ab91-9a61-45ed-848d-92573d105fe5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='data.department_part']</value>
-      <webElementGuid>b447cfb7-d586-4378-ace2-eb4e3384c970</webElementGuid>
+      <value>//select[@id='data.position']</value>
+      <webElementGuid>dd96f139-43a0-4745-8239-52f0f41c3833</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dang-ky-trach-vu-nien-trinh-2024']/div/div[2]/div/div/div[2]/div/div/select</value>
-      <webElementGuid>332dac7e-047a-44a2-86ec-b927573f78bb</webElementGuid>
+      <value>//div[@id='dang-ky-trach-vu-nien-trinh-2024']/div/div[3]/div/div/div[2]/div/div/select</value>
+      <webElementGuid>cd7c2bda-6bc7-42c1-8a0b-d0b6c0cb8ee1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/div/div/select</value>
-      <webElementGuid>fb6e87ec-18ae-46d6-9209-7e14341a04e5</webElementGuid>
+      <value>//div[3]/div/div/div[2]/div/div/select</value>
+      <webElementGuid>35322b4e-1f96-4726-922a-1a7571ea1324</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@id = 'data.department_part' and (text() = '
+      <value>//select[@id = 'data.position' and (text() = '
                         
                                                     Chọn một tuỳ chọn
                          
@@ -129,22 +123,17 @@
                  
 
                                                             
-                                                            Ban Văn Thư - Đặc Chương
+                                                            Trưởng Ban
                              
                         
                      
                                                             
-                                                            Ban Nhân Viên - Kế Toán
+                                                            Phó Ban
                              
                         
                      
                                                             
-                                                            Ban Thư Viện - Ấn Tống Phát Hành Kinh Sách
-                             
-                        
-                     
-                                                            
-                                                            Ban Tài Sản - Sửa Chữa - Bảo Trì
+                                                            Nhân viên
                              
                         
                      
@@ -157,27 +146,22 @@
                  
 
                                                             
-                                                            Ban Văn Thư - Đặc Chương
+                                                            Trưởng Ban
                              
                         
                      
                                                             
-                                                            Ban Nhân Viên - Kế Toán
+                                                            Phó Ban
                              
                         
                      
                                                             
-                                                            Ban Thư Viện - Ấn Tống Phát Hành Kinh Sách
-                             
-                        
-                     
-                                                            
-                                                            Ban Tài Sản - Sửa Chữa - Bảo Trì
+                                                            Nhân viên
                              
                         
                      
                  
 ')]</value>
-      <webElementGuid>3be912fc-1563-4549-a67f-11cc223cd0ba</webElementGuid>
+      <webElementGuid>81d23247-ea7b-41d1-8ec2-15a358b20a70</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

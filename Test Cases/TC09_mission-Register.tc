@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>đăng ký Tự nguyện hành Đạo</description>
-   <name>TC09_register-TNHD</name>
+   <name>TC09_mission-Register</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>154267f9-a5a5-49c4-b063-f18e546cafb4</testCaseGuid>

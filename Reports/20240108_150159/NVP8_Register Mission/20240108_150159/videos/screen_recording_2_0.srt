@@ -1,0 +1,60 @@
+1
+00:00:00,104 --> 00:00:00,831
+1. refresh(STOP_ON_FAILURE)
+
+2
+00:00:00,832 --> 00:00:02,279
+5. click(findTestObject("Page_Danh sch Nhn vin C Quan - H thng ni b _31750c/button_Notification"))
+
+3
+00:00:02,280 --> 00:00:04,285
+9. delay(2)
+
+4
+00:00:04,285 --> 00:00:04,700
+13. click(findTestObject("Object Repository/Page_Danh sch Nhn vin C Quan - H thng ni b _31750c/a_Xem"))
+
+5
+00:00:04,701 --> 00:00:04,757
+17. switchToWindowIndex(1)
+
+6
+00:00:04,758 --> 00:00:06,143
+21. click(findTestObject("Object Repository/Page_Taking New Mission - H thng ni b C Quan PTGL/button_MOTHONGBAO"))
+
+7
+00:00:06,143 --> 00:00:09,158
+25. delay(3)
+
+8
+00:00:09,158 --> 00:00:09,536
+29. click(findTestObject("Page_Taking New Mission - H thng ni b C Quan PTGL/button_DaDOC"))
+
+9
+00:00:09,537 --> 00:00:11,554
+33. delay(2)
+
+10
+00:00:11,554 --> 00:00:11,937
+37. click(findTestObject("Object Repository/Page_Taking New Mission - H thng ni b C Quan PTGL/button_DONG"))
+
+11
+00:00:11,937 --> 00:00:14,943
+41. delay(3)
+
+12
+00:00:14,943 --> 00:00:15,326
+45. click(findTestObject("Account_menu/img_user-avatar"))
+
+13
+00:00:15,327 --> 00:00:16,592
+49. click(findTestObject("Account_menu/button_DangXuat"))
+
+14
+00:00:16,593 --> 00:00:18,599
+53. delay(2)
+
+15
+00:00:18,599 --> 00:00:18,909
+57. closeBrowser()
+

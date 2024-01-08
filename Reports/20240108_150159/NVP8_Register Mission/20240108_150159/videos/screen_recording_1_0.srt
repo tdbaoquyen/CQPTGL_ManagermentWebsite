@@ -1,0 +1,396 @@
+1
+00:00:00,474 --> 00:00:05,589
+1. openBrowser("https://cqsystem.fionaprodev.com/")
+
+2
+00:00:05,606 --> 00:00:05,813
+5. maximizeWindow(STOP_ON_FAILURE)
+
+3
+00:00:05,814 --> 00:00:06,745
+9. setText(findTestObject("Login_page/login_email"), "temp.vothihanh@gmail.com")
+
+4
+00:00:06,745 --> 00:00:07,478
+13. setText(findTestObject("Login_page/login_password"), "12345678")
+
+5
+00:00:07,479 --> 00:00:07,968
+17. click(findTestObject("Login_page/checkbox_remember"))
+
+6
+00:00:07,969 --> 00:00:08,521
+21. click(findTestObject("Login_page/button_DangNhap"))
+
+7
+00:00:08,522 --> 00:00:10,571
+25. delay(2)
+
+8
+00:00:10,571 --> 00:00:11,701
+29. click(findTestObject("ThongtinNhanVien_page/button_dkTNHD"))
+
+9
+00:00:11,701 --> 00:00:12,921
+33. click(findTestObject("ThongtinNhanVien_page/link_dk-TNHD"))
+
+10
+00:00:12,922 --> 00:00:14,941
+37. delay(2)
+
+11
+00:00:14,941 --> 00:00:16,002
+41. selectOptionByValue(findTestObject("DK_TNHD_page/select_main-VU"), "4", true)
+
+12
+00:00:16,002 --> 00:00:18,016
+45. delay(2)
+
+13
+00:00:18,016 --> 00:00:19,015
+49. selectOptionByValue(findTestObject("DK_TNHD_page/select_main-BAN"), "13", true)
+
+14
+00:00:19,015 --> 00:00:20,039
+53. delay(1)
+
+15
+00:00:20,040 --> 00:00:20,871
+57. click(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"))
+
+16
+00:00:20,872 --> 00:00:22,878
+61. delay(2)
+
+17
+00:00:22,879 --> 00:00:23,852
+65. selectOptionByValue(findTestObject("DK_TNHD_page/select_main-ViTri"), "6", true)
+
+18
+00:00:23,852 --> 00:00:24,872
+69. delay(1)
+
+19
+00:00:24,872 --> 00:00:25,496
+73. click(findTestObject("DK_TNHD_page/buttondata_hasKiemNhiem"))
+
+20
+00:00:25,497 --> 00:00:26,510
+77. delay(1)
+
+21
+00:00:26,510 --> 00:00:26,868
+81. click(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"))
+
+22
+00:00:26,868 --> 00:00:28,887
+85. delay(2)
+
+23
+00:00:28,887 --> 00:00:29,236
+89. click(findTestObject("DK_TNHD_page/button_add-KiemNhiem"))
+
+24
+00:00:29,237 --> 00:00:30,251
+93. delay(1)
+
+25
+00:00:30,251 --> 00:00:31,820
+97. selectOptionByValue(findTestObject("DK_TNHD_page/select_sub_VU_475321_1"), "5", true)
+
+26
+00:00:31,820 --> 00:00:33,829
+101. delay(2)
+
+27
+00:00:33,830 --> 00:00:34,834
+105. selectOptionByValue(findTestObject("DK_TNHD_page/select_sub_ViTri_593b8e_1"), "7", true)
+
+28
+00:00:34,834 --> 00:00:35,853
+109. delay(1)
+
+29
+00:00:35,854 --> 00:00:36,470
+113. click(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"))
+
+30
+00:00:36,471 --> 00:00:38,484
+117. delay(2)
+
+31
+00:00:38,485 --> 00:00:39,468
+121. selectOptionByValue(findTestObject("DK_TNHD_page/select_sub_BAN_82ec2e"), "17", true)
+
+32
+00:00:39,468 --> 00:00:40,481
+125. delay(1)
+
+33
+00:00:40,481 --> 00:00:41,086
+129. click(findTestObject("DK_TNHD_page/button_sub-Xoa"))
+
+34
+00:00:41,087 --> 00:00:43,097
+133. delay(2)
+
+35
+00:00:43,098 --> 00:00:44,101
+137. click(findTestObject("DK_TNHD_page/button_add-KiemNhiem"))
+
+36
+00:00:44,102 --> 00:00:45,115
+141. delay(1)
+
+37
+00:00:45,115 --> 00:00:46,540
+145. selectOptionByValue(findTestObject("DK_TNHD_page/select_sub_VU_475321_1"), "5", true)
+
+38
+00:00:46,540 --> 00:00:48,553
+149. delay(2)
+
+39
+00:00:48,553 --> 00:00:49,525
+153. selectOptionByValue(findTestObject("DK_TNHD_page/select_sub_BAN_82ec2e"), "18", true)
+
+40
+00:00:49,525 --> 00:00:50,536
+157. delay(1)
+
+41
+00:00:50,537 --> 00:00:51,791
+161. selectOptionByValue(findTestObject("DK_TNHD_page/select_sub_ViTri_593b8e_1"), "7", true)
+
+42
+00:00:51,792 --> 00:00:52,798
+165. delay(1)
+
+43
+00:00:52,798 --> 00:00:53,417
+169. click(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"))
+
+44
+00:00:53,418 --> 00:00:56,423
+173. delay(3)
+
+45
+00:00:56,424 --> 00:00:56,580
+177. waitForPageLoad(3)
+
+46
+00:00:56,580 --> 00:00:56,895
+181. waitForElementPresent(findTestObject("DK_TNHD_page/inputdata_dkTNHD_noisinh"), 3)
+
+47
+00:00:56,896 --> 00:00:57,606
+185. setText(findTestObject("DK_TNHD_page/inputdata_dkTNHD_noisinh"), "Bến Tre")
+
+48
+00:00:57,606 --> 00:00:58,617
+189. delay(1)
+
+49
+00:00:58,617 --> 00:00:59,334
+193. setText(findTestObject("DK_TNHD_page/inputdata_dkTNHD_diachi"), "Tân Phú, TP.HCM")
+
+50
+00:00:59,334 --> 00:01:00,348
+197. delay(1)
+
+51
+00:01:00,348 --> 00:01:00,686
+201. scrollToElement(findTestObject("DK_TNHD_page/inputdata_dkTNHD_diachi"), 0)
+
+52
+00:01:00,686 --> 00:01:01,386
+205. setText(findTestObject("DK_TNHD_page/inputdata_dkTNHD_ngaynhapmon"), "năm 2000")
+
+53
+00:01:01,387 --> 00:01:02,393
+209. delay(1)
+
+54
+00:01:02,393 --> 00:01:02,705
+213. scrollToElement(findTestObject("DK_TNHD_page/inputdata_dkTNHD_traikyhientai_tunam"), 3)
+
+55
+00:01:02,705 --> 00:01:03,068
+217. click(findTestObject("DK_TNHD_page/inputdata_dkTNHD_trinhdohocvan"))
+
+56
+00:01:03,069 --> 00:01:04,074
+221. delay(1)
+
+57
+00:01:04,074 --> 00:01:04,417
+225. click(findTestObject("DK_TNHD_page/inputdata_dkTNHD_kynangtinhoc"))
+
+58
+00:01:04,417 --> 00:01:05,427
+229. delay(1)
+
+59
+00:01:05,427 --> 00:01:05,747
+233. scrollToElement(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"), 3)
+
+60
+00:01:05,747 --> 00:01:06,105
+237. click(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"))
+
+61
+00:01:06,106 --> 00:01:08,112
+241. delay(2)
+
+62
+00:01:08,112 --> 00:01:08,420
+245. scrollToElement(findTestObject("DK_TNHD_page/inputdata_dkTNHD_noisinh"), 3)
+
+63
+00:01:08,420 --> 00:01:09,102
+249. setText(findTestObject("DK_TNHD_page/inputdata_dkTNHD_phone"), "90909")
+
+64
+00:01:09,103 --> 00:01:10,113
+253. delay(1)
+
+65
+00:01:10,113 --> 00:01:10,470
+257. scrollToElement(findTestObject("DK_TNHD_page/inputdata_dkTNHD_diachi"), 3)
+
+66
+00:01:10,470 --> 00:01:11,221
+261. setText(findTestObject("DK_TNHD_page/inputdata_dkTNHD_noinhapmon"), "TT Bến Tre")
+
+67
+00:01:11,222 --> 00:01:12,233
+265. delay(1)
+
+68
+00:01:12,233 --> 00:01:12,605
+269. click(findTestObject("DK_TNHD_page/inputdata_dkTNHD_traikyhientai"))
+
+69
+00:01:12,606 --> 00:01:13,621
+273. delay(1)
+
+70
+00:01:13,622 --> 00:01:14,037
+277. scrollToElement(findTestObject("DK_TNHD_page/inputdata_dkTNHD_noinhapmon"), 3)
+
+71
+00:01:14,038 --> 00:01:14,719
+281. setText(findTestObject("DK_TNHD_page/inputdata_dkTNHD_traikyhientai_tunam"), "2010")
+
+72
+00:01:14,719 --> 00:01:15,723
+285. delay(1)
+
+73
+00:01:15,724 --> 00:01:16,034
+289. scrollToElement(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"), 3)
+
+74
+00:01:16,034 --> 00:01:16,384
+293. click(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"))
+
+75
+00:01:16,385 --> 00:01:18,400
+297. delay(2)
+
+76
+00:01:18,400 --> 00:01:18,705
+301. scrollToElement(findTestObject("DK_TNHD_page/inputdata_dkTNHD_noisinh"), 3)
+
+77
+00:01:18,705 --> 00:01:19,440
+305. setText(findTestObject("DK_TNHD_page/inputdata_dkTNHD_phone"), "0996669029")
+
+78
+00:01:19,441 --> 00:01:20,444
+309. delay(1)
+
+79
+00:01:20,445 --> 00:01:20,749
+313. scrollToElement(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"), 3)
+
+80
+00:01:20,749 --> 00:01:21,118
+317. click(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"))
+
+81
+00:01:21,118 --> 00:01:23,125
+321. delay(2)
+
+82
+00:01:23,125 --> 00:01:23,141
+325. waitForPageLoad(3)
+
+83
+00:01:23,141 --> 00:01:23,440
+329. waitForElementPresent(findTestObject("DK_TNHD_page/button_dkTNHD_KyNang"), 3)
+
+84
+00:01:23,440 --> 00:01:23,757
+333. scrollToElement(findTestObject("DK_TNHD_page/button_dk-TNHD_QuayLai"), 3)
+
+85
+00:01:23,758 --> 00:01:24,161
+337. click(findTestObject("DK_TNHD_page/button_dk-TNHD_QuayLai"))
+
+86
+00:01:24,162 --> 00:01:26,174
+341. delay(2)
+
+87
+00:01:26,175 --> 00:01:26,484
+345. scrollToElement(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"), 3)
+
+88
+00:01:26,485 --> 00:01:26,824
+349. click(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"))
+
+89
+00:01:26,824 --> 00:01:28,830
+353. delay(2)
+
+90
+00:01:28,830 --> 00:01:28,843
+357. waitForPageLoad(3)
+
+91
+00:01:28,844 --> 00:01:29,157
+361. scrollToElement(findTestObject("DK_TNHD_page/button_dkTNHD_KyNang"), 3)
+
+92
+00:01:29,158 --> 00:01:29,545
+365. click(findTestObject("DK_TNHD_page/button_dkTNHD_KyNang"), STOP_ON_FAILURE)
+
+93
+00:01:29,546 --> 00:01:31,562
+369. delay(2)
+
+94
+00:01:31,562 --> 00:01:31,866
+373. scrollToElement(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"), 3)
+
+95
+00:01:31,867 --> 00:01:32,218
+377. click(findTestObject("DK_TNHD_page/button_dk-TNHD_TiepTuc"))
+
+96
+00:01:32,219 --> 00:01:34,227
+381. delay(2)
+
+97
+00:01:34,228 --> 00:01:34,632
+385. click(findTestObject("DK_TNHD_page/button_dk-TNHD_DangKy"))
+
+98
+00:01:34,633 --> 00:02:24,636
+389. delay(50)
+
+99
+00:02:24,637 --> 00:02:25,695
+393. navigateToUrl("https://cqsystem.fionaprodev.com/")
+

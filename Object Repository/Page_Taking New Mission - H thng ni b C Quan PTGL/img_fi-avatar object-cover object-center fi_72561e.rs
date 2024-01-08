@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_fi-avatar object-cover object-center fi_72561e</name>
+   <tag></tag>
+   <elementGuidId>0bf272cb-e322-4add-baf5-5ccc53972ddf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://ui-avatars.com/api/?name=T+N+T&amp;color=FFFFFF&amp;background=030712')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.fi-avatar.object-cover.object-center.fi-circular.rounded-full.h-9.w-9.fi-user-avatar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e8d97aae-4d4d-4f7a-b409-d2c0191bf118</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fi-avatar object-cover object-center fi-circular rounded-full h-9 w-9 fi-user-avatar</value>
+      <webElementGuid>e296ff80-4d90-47f7-9b88-a6646b19416c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://ui-avatars.com/api/?name=T+N+T&amp;color=FFFFFF&amp;background=030712</value>
+      <webElementGuid>8ff0d8c7-0728-4b45-a490-977342ac3c4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fi min-h-screen&quot;]/body[@class=&quot;fi-body min-h-screen bg-gray-50 font-normal text-gray-950 antialiased dark:bg-gray-950 dark:text-white&quot;]/div[@class=&quot;fi-layout flex min-h-screen w-full overflow-x-clip&quot;]/div[@class=&quot;fi-main-ctn w-screen flex-1 flex-col flex&quot;]/div[@class=&quot;fi-topbar sticky top-0 z-20 overflow-x-clip fi-topbar-with-navigation&quot;]/nav[@class=&quot;flex h-16 items-center gap-x-4 bg-white px-4 shadow-sm ring-1 ring-gray-950/5 dark:bg-gray-900 dark:ring-white/10 md:px-6 lg:px-8&quot;]/div[@class=&quot;ms-auto flex items-center gap-x-4&quot;]/div[@class=&quot;fi-dropdown fi-user-menu&quot;]/div[@class=&quot;fi-dropdown-trigger flex cursor-pointer&quot;]/button[1]/img[@class=&quot;fi-avatar object-cover object-center fi-circular rounded-full h-9 w-9 fi-user-avatar&quot;]</value>
+      <webElementGuid>1646acd3-96c3-451c-a06e-c674d287df49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://ui-avatars.com/api/?name=T+N+T&amp;color=FFFFFF&amp;background=030712')]</value>
+      <webElementGuid>c2fba78f-1023-4243-a2c2-ae28bd17d399</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>0144424b-57d0-465e-8721-1660dfe6ed3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://ui-avatars.com/api/?name=T+N+T&amp;color=FFFFFF&amp;background=030712']</value>
+      <webElementGuid>d1118e17-2244-455b-8eb3-e8be42a0c4f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

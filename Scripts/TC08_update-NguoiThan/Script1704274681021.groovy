@@ -74,53 +74,45 @@ WebUI.delay(2)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_hoten'), 'Trần Ngọc Sỹ')
+WebUI.setText(findTestObject('Page_HosoCaNhan/input__data.userfamiliar_hoten'), 'Trần Ngọc Sỹ')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/div_chonMoiQuanHe'))
+WebUI.click(findTestObject('Page_HosoCaNhan/div_chonMoiQuanHe'))
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/div_downListChaMeAnhChiEm'), 3)
+WebUI.waitForElementPresent(findTestObject('Page_HosoCaNhan/div_downListChaMeAnhChiEm'), 3)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/div_Cha'))
+WebUI.click(findTestObject('Page_HosoCaNhan/div_Cha'))
 
-WebUI.click(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Ngaysinh'))
+WebUI.click(findTestObject('Page_HosoCaNhan/input__data.userfamiliar_Ngaysinh'))
 
 WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/select_thng 1thng 2thng 3thng 4thng 5thng 6thng 7thng 8thng 9thng 10thng 11thng 12'), 
+WebUI.selectOptionByValue(findTestObject('Page_HosoCaNhan/select_thng 1thng 2thng 3thng 4thng 5thng 6thng 7thng 8thng 9thng 10thng 11thng 12'), 
     '9', true)
 
 WebUI.delay(1)
 
-WebUI.clearText(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white'))
+WebUI.clearText(findTestObject('Page_HosoCaNhan/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white'))
 
-WebUI.setText(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white'), 
+WebUI.setText(findTestObject('Page_HosoCaNhan/input__w-16 border-none bg-transparent p-0 text-right text-sm text-gray-950 focusring-0 darktext-white'), 
     '1960')
 
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/div_birthday-Days'), 3)
+WebUI.waitForElementPresent(findTestObject('Page_HosoCaNhan/div_birthday-Days'), 3)
 
-WebUI.click(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/div_userfamiliar_birthday-4'))
-
-WebUI.delay(2)
-
-WebUI.scrollToElement(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone'), 2)
-
-WebUI.setText(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/input_data.userfamiliar_Diachi'), 'Quan 7, TP.HCM')
+WebUI.click(findTestObject('Page_HosoCaNhan/div_userfamiliar_birthday-4'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('HosoCanhan_page/button_LuuThayDoi'))
+WebUI.scrollToElement(findTestObject('Page_HosoCaNhan/input__data.userfamiliar_Phone'), 2)
 
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone'), '12345')
+WebUI.setText(findTestObject('Page_HosoCaNhan/input_data.userfamiliar_Diachi'), 'Quan 7, TP.HCM')
 
 WebUI.delay(2)
 
@@ -128,9 +120,17 @@ WebUI.click(findTestObject('HosoCanhan_page/button_LuuThayDoi'))
 
 WebUI.delay(2)
 
-WebUI.clearText(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_HosoCaNhan/input__data.userfamiliar_Phone'), '12345')
 
-WebUI.setText(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/input__data.userfamiliar_Phone'), '0912903332')
+WebUI.delay(2)
+
+WebUI.click(findTestObject('HosoCanhan_page/button_LuuThayDoi'))
+
+WebUI.delay(2)
+
+WebUI.clearText(findTestObject('Page_HosoCaNhan/input__data.userfamiliar_Phone'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Page_HosoCaNhan/input__data.userfamiliar_Phone'), '0912903332')
 
 WebUI.delay(2)
 
@@ -146,11 +146,11 @@ WebUI.click(findTestObject('HosoCanhan_page/a_ThongtinGiadinh'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_Xoa'))
+WebUI.click(findTestObject('Page_HosoCaNhan/button_userfamiliar_Xoa'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_H s c nhn - H thng ni b C Quan PTGL/button_userfamiliar_XacNhan'))
+WebUI.click(findTestObject('Page_HosoCaNhan/button_userfamiliar_XacNhan'))
 
 WebUI.delay(2)
 
